@@ -1,0 +1,97 @@
+/* line 3, ../sass/coa_menu.scss */
+body {
+  margin: 0;
+}
+
+/* line 6, ../sass/coa_menu.scss */
+#header {
+  background-color: #001421;
+}
+/* line 11, ../sass/coa_menu.scss */
+#header li {
+  display: inline;
+}
+/* line 13, ../sass/coa_menu.scss */
+#header li a {
+  color: #BDBDBD;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+/* line 20, ../sass/coa_menu.scss */
+#header div.panel-col-top li.first {
+  margin-left: 15px !important;
+}
+/* line 23, ../sass/coa_menu.scss */
+#header div.panel-col-bottom li.first {
+  margin-left: -5px !important;
+}
+/* line 25, ../sass/coa_menu.scss */
+#header div.panel-col-bottom li.first a {
+  margin-left: 5px !important;
+}
+/* line 32, ../sass/coa_menu.scss */
+#header .panel-col-bottom .inside,
+#header .center-wrapper .inside {
+  margin: 0 auto;
+  max-width: 980px;
+}
+/* line 37, ../sass/coa_menu.scss */
+#header h2.pane-title {
+  display: none;
+}
+/* line 40, ../sass/coa_menu.scss */
+#header div {
+  margin: 0;
+  padding: 0;
+}
+/* line 44, ../sass/coa_menu.scss */
+#header ul.menu {
+  overflow: hidden;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  border: medium none;
+  list-style: none outside none;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 8px;
+  font-weight: normal;
+  margin: 0 auto;
+  max-width: 980px;
+}
+/* line 60, ../sass/coa_menu.scss */
+#header ul.menu li {
+  display: inline;
+  float: none;
+  margin: 0;
+  margin: 0 0 0 0.5em;
+  list-style: none outside none;
+  font-size: 1.2em;
+}
+/* line 67, ../sass/coa_menu.scss */
+#header ul.menu li a {
+  color: #BDBDBD;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+/* line 71, ../sass/coa_menu.scss */
+#header ul.menu li a:hover {
+  text-decoration: underline;
+}
+/* line 74, ../sass/coa_menu.scss */
+#header ul.menu li a.active {
+  color: #fdb813;
+  font-weight: bold;
+}
+/* line 79, ../sass/coa_menu.scss */
+#header ul.menu li.first {
+  padding-left: 0;
+}
+/* line 82, ../sass/coa_menu.scss */
+#header ul.menu li.last a {
+  border-right: none;
+}
+/* line 86, ../sass/coa_menu.scss */
+#header ul.menu li.expanded, #header ul.menu li.collapsed, #header ul.menu li.leaf {
+  margin: 0;
+  padding: 0.2em 0 0 0;
+}
