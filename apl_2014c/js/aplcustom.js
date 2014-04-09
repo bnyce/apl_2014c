@@ -1,7 +1,6 @@
 (function ($) {
 $(document).ready(function() {
 
-$('#mini-panel-apl_2014_top ul li a').click(function(e) { e.preventDefault(); }); 
 
 var i = $('#gsearch-input');
 var searchString = '';

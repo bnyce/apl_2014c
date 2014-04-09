@@ -89,32 +89,6 @@ span.field-content {
 }
 div#mini-panel-apl_2014_top {
 
-.panel-col-top,
-.panel-col-bottom {
-	width: 100%;
-}
-.panel-col-bottom {
-	margin-top: 10px;
-	border-top: 3px solid $blue;
-}
-.center-wrapper {
-}
-	.panel-col-top {
-//		background-color: $blue_black;
-	}
-	.center-wrapper {
-		min-height: 72px;
-		max-width: 960px;
-		padding: 0 20px;
-		margin: 5px auto !important;
-		position: relative;
-		form {
-			position: relative;			
-div.searchOptions {
-			margin-bottom: 10px;
-		}
-		}
-	}
 	.panel-col-first {
 		float: left;
 		position: relative;
@@ -131,25 +105,10 @@ div.searchOptions {
    		margin-left: 20px;
 		width: 340px;
 	}
-	.panel-col-bottom {
-		background-color: $blue;
-		ul.menu li {
-			border-bottom: 3px solid $blue;
-			display: inline-block;
-			a {
-			color: white;
-			font-size: 1.4em;
-			text-transform: none;
-			&:hover {
-				text-decoration: none;
-				background-color: white;
-				color: $blue;
-			}
-		}
-		}
-	}
+
 }
 
+/*
 #city-header {
 	h2.pane-title {
 		display: none;
@@ -212,3 +171,7 @@ div.searchOptions {
 		}
 	}
 }
+*/
+
+
+

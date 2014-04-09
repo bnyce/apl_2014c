@@ -1,10 +1,10 @@
-/* line 1, ../sass/header.scss */
+/* line 3, ../sass/header.scss */
 body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
-/* line 8, ../sass/header.scss */
+/* line 10, ../sass/header.scss */
 body,
 div,
 #header {
@@ -12,22 +12,51 @@ div,
   padding: 0;
 }
 
-/* line 14, ../sass/header.scss */
+/* line 16, ../sass/header.scss */
 #header h2.pane-title {
   display: none;
 }
 
-/* line 19, ../sass/header.scss */
+/* line 21, ../sass/header.scss */
 #page, .region-bottom {
   max-width: none !important;
 }
 
-/* line 22, ../sass/header.scss */
+/* line 25, ../sass/header.scss */
 div#mini-panel-apl_2014_top {
   background-color: white;
 }
-/* line 25, ../sass/header.scss */
+/* line 29, ../sass/header.scss */
 div#mini-panel-apl_2014_top .panel-col-top,
 div#mini-panel-apl_2014_top .panel-col-bottom {
   width: 100%;
+}
+/* line 33, ../sass/header.scss */
+div#mini-panel-apl_2014_top .center-wrapper {
+  min-height: 72px;
+  max-width: 960px;
+  padding: 0 20px;
+  margin: 5px auto !important;
+  position: relative;
+}
+/* line 41, ../sass/header.scss */
+div#mini-panel-apl_2014_top .panel-col-bottom {
+  background-color: #0069aa;
+}
+/* line 44, ../sass/header.scss */
+div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li {
+  border-bottom: 3px solid #0069aa;
+  display: inline-block;
+}
+/* line 48, ../sass/header.scss */
+div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a {
+  color: white;
+  font-size: 1.4em;
+  text-transform: none;
+}
+/* line 53, ../sass/header.scss */
+div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #0069aa;
 }
