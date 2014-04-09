@@ -1,0 +1,37 @@
+@import "colors";
+
+.pane-menu-menu-coa-header {
+	background-color: $black;
+	ul.menu {
+		overflow: hidden;
+		line-height: 18px;
+		margin: 0;
+		padding: 0;
+		border: medium none;
+		list-style: none outside none;
+		font-family: Arial,Helvetica,sans-serif;
+		font-size: 10px;
+		font-weight: normal;
+		margin: 0 auto;
+		max-width: 980px;
+		li {
+			display: inline;
+			a {
+				color: #BDBDBD;
+				text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+			&.active {
+				color: $yellow;
+				font-weight: bold;
+			}
+			}	    
+			&.first {
+			}
+			&.last a {
+				border-right: none;
+			}
+			}
+		}
+}

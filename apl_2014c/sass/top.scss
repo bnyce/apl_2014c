@@ -1,9 +1,7 @@
 @import "colors";
+// wednesday, 6pm
+
 $width: 100%;
-body {
-overflow-y: scroll;
-overflow-x: hidden;
-}
 .panel-pane.pane-custom.pane-4 > img {
     height: auto;
     max-width: 100%;
@@ -43,9 +41,6 @@ overflow-x: hidden;
 	}
 }
 
-body div div.panel-display {
-    margin-bottom: 0px !important;
-}
 .panel-2col .panel-col-first .inside,
 .panel-2col .panel-col-first .inside p {
     margin: 0 0 0 0 !important;
@@ -97,59 +92,25 @@ div#mini-panel-apl_2014_top {
 .panel-col-top,
 .panel-col-bottom {
 	width: 100%;
-	div.inside {
-//		padding-top: 3px !important;
-	}
 }
 .panel-col-bottom {
 	margin-top: 10px;
 	border-top: 3px solid $blue;
-//	height: 25px;
 }
 .center-wrapper {
 }
-	background-color: white;
 	.panel-col-top {
-		background-color: $blue_black;
-		ul.menu {
-//			height: 18px;
-//			max-height: 18px;
-			
-			li:nth-child(3) a {
-				color: $yellow;
-				font-weight:bold;
-			}
-			li:last-child a {
-				border-right: none;
-			}
-			li a {
-				text-transform: uppercase;
-				border-right: 1px solid fade-out(#BDBDBD, 0.2);
-				padding: 0 5px;
-				letter-spacing: 1px;
-				font-weight: bold;
-//				display: inline-block;
-			}
-		}
+//		background-color: $blue_black;
 	}
 	.center-wrapper {
 		min-height: 72px;
-//		margin-top: 10px;
-//		background-color: red;
 		max-width: 960px;
 		padding: 0 20px;
 		margin: 5px auto !important;
-//		margin-top: 5px;
 		position: relative;
-		a.alt_language {
-//			margin-right: 20px !important;
-		}
 		form {
 			position: relative;			
-//			margin-right: 20px;
 div.searchOptions {
-//			position: absolute;
-//			left: 0;
 			margin-bottom: 10px;
 		}
 		}
@@ -157,14 +118,9 @@ div.searchOptions {
 	.panel-col-first {
 		float: left;
 		position: relative;
-//		border: 1px dotted red;
-	//	margin-left: 20px;
 		min-width: 580px;
 		width: 50%;
 		.inside {
-		//	position: absolute;
-		//	left: 20px;
-//			border: 1px solid green;
 			float: right;
 			width: 580px;
 			top: 2px;
@@ -173,7 +129,6 @@ div.searchOptions {
 	.panel-col-last {
 		float: right;
    		margin-left: 20px;
-//   		margin-right: 10px;
 		width: 340px;
 	}
 	.panel-col-bottom {
@@ -181,13 +136,10 @@ div.searchOptions {
 		ul.menu li {
 			border-bottom: 3px solid $blue;
 			display: inline-block;
-//			padding: 2px 3px;
-//			background-color: rgba(23,23,23,0.5);
 			a {
 			color: white;
 			font-size: 1.4em;
 			text-transform: none;
-//			padding: 3px 9px !important;
 			&:hover {
 				text-decoration: none;
 				background-color: white;

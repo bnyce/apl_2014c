@@ -1,14 +1,28 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 body,
 div,
 #header {
-	margin: 0 !important;
-	padding: 0 !important;
+	margin: 0 auto;
+	padding: 0;
 }
+
 #header {
 	h2.pane-title {
 		display: none;
 	}
 }
+
 #page, .region-bottom {
     max-width: none !important;
+}
+div#mini-panel-apl_2014_top {
+        background-color: white;
+	.panel-col-top,
+	.panel-col-bottom {
+		width: 100%;
+	}
 }

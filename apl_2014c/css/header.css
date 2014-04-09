@@ -1,17 +1,33 @@
-/* line 3, ../sass/header.scss */
-body,
-div,
-#header {
-  margin: 0 !important;
-  padding: 0 !important;
+/* line 1, ../sass/header.scss */
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 /* line 8, ../sass/header.scss */
+body,
+div,
+#header {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 14, ../sass/header.scss */
 #header h2.pane-title {
   display: none;
 }
 
-/* line 12, ../sass/header.scss */
+/* line 19, ../sass/header.scss */
 #page, .region-bottom {
   max-width: none !important;
+}
+
+/* line 22, ../sass/header.scss */
+div#mini-panel-apl_2014_top {
+  background-color: white;
+}
+/* line 25, ../sass/header.scss */
+div#mini-panel-apl_2014_top .panel-col-top,
+div#mini-panel-apl_2014_top .panel-col-bottom {
+  width: 100%;
 }

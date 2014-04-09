@@ -12,9 +12,9 @@ stylesheets[all][] = system.theme.css
 
 ; Then we add our own stylesheet.
 stylesheets[all][] = css/header.css
+stylesheets[all][] = css/coa-header.css
 stylesheets[all][] = css/styles.css
 stylesheets[all][] = css/search.css
-stylesheets[all][] = css/coa-menu.css
 stylesheets[all][] = css/top.css
 stylesheets[all][] = css/nicer-menus.css
 stylesheets[all][] = css/megamenus.css
