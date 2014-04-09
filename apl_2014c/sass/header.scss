@@ -32,10 +32,12 @@ div#mini-panel-apl_2014_top {
 	
 	.center-wrapper {
 		min-height: 72px;
-		max-width: 960px;
-		padding: 0 20px;
-		margin: 5px auto !important;
 		position: relative;
+		a#apl_logo_a {
+			display: block;
+			height: 100px;
+			width: 100px;
+		}
 	}
 	
 	.panel-col-bottom {
