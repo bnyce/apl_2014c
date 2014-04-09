@@ -1,52 +1,9 @@
 /* line 3, ../sass/coa-menu.scss */
-body {
-  margin: 0;
-}
-
-/* line 6, ../sass/coa-menu.scss */
-#header {
-  padding: 0;
+.pane-menu-menu-coa-header {
   background-color: #001421;
 }
-/* line 13, ../sass/coa-menu.scss */
-#header li {
-  display: inline;
-}
-/* line 15, ../sass/coa-menu.scss */
-#header li a {
-  color: #BDBDBD;
-  font-size: 1.1em;
-  text-decoration: none;
-}
-/* line 22, ../sass/coa-menu.scss */
-#header div.panel-col-top li.first {
-  margin-left: 15px !important;
-}
-/* line 25, ../sass/coa-menu.scss */
-#header div.panel-col-bottom li.first {
-  margin-left: -5px !important;
-}
-/* line 27, ../sass/coa-menu.scss */
-#header div.panel-col-bottom li.first a {
-  margin-left: 5px !important;
-}
-/* line 34, ../sass/coa-menu.scss */
-#header .panel-col-bottom .inside,
-#header .center-wrapper .inside {
-  margin: 0 auto;
-  max-width: 980px;
-}
-/* line 39, ../sass/coa-menu.scss */
-#header h2.pane-title {
-  display: none;
-}
-/* line 42, ../sass/coa-menu.scss */
-#header div {
-  margin: 0;
-  padding: 0;
-}
-/* line 46, ../sass/coa-menu.scss */
-#header ul.menu {
+/* line 6, ../sass/coa-menu.scss */
+.pane-menu-menu-coa-header ul.menu {
   overflow: hidden;
   line-height: 18px;
   margin: 0;
@@ -59,8 +16,8 @@ body {
   margin: 0 auto;
   max-width: 980px;
 }
-/* line 62, ../sass/coa-menu.scss */
-#header ul.menu li {
+/* line 18, ../sass/coa-menu.scss */
+.pane-menu-menu-coa-header ul.menu li {
   display: inline;
   float: none;
   margin: 0;
@@ -68,31 +25,32 @@ body {
   list-style: none outside none;
   font-size: 1.2em;
 }
-/* line 69, ../sass/coa-menu.scss */
-#header ul.menu li a {
+/* line 25, ../sass/coa-menu.scss */
+.pane-menu-menu-coa-header ul.menu li a {
   color: #BDBDBD;
   font-size: 1.1em;
   text-decoration: none;
 }
-/* line 73, ../sass/coa-menu.scss */
-#header ul.menu li a:hover {
+/* line 29, ../sass/coa-menu.scss */
+.pane-menu-menu-coa-header ul.menu li a:hover {
   text-decoration: underline;
 }
-/* line 76, ../sass/coa-menu.scss */
-#header ul.menu li a.active {
+/* line 32, ../sass/coa-menu.scss */
+.pane-menu-menu-coa-header ul.menu li a.active {
   color: #fdb813;
   font-weight: bold;
 }
-/* line 81, ../sass/coa-menu.scss */
-#header ul.menu li.first {
+/* line 37, ../sass/coa-menu.scss */
+.pane-menu-menu-coa-header ul.menu li.first {
   padding-left: 0;
+  margin-left: 15px !important;
 }
-/* line 84, ../sass/coa-menu.scss */
-#header ul.menu li.last a {
+/* line 41, ../sass/coa-menu.scss */
+.pane-menu-menu-coa-header ul.menu li.last a {
   border-right: none;
 }
-/* line 88, ../sass/coa-menu.scss */
-#header ul.menu li.expanded, #header ul.menu li.collapsed, #header ul.menu li.leaf {
+/* line 45, ../sass/coa-menu.scss */
+.pane-menu-menu-coa-header ul.menu li.expanded, .pane-menu-menu-coa-header ul.menu li.collapsed, .pane-menu-menu-coa-header ul.menu li.leaf {
   margin: 0;
   padding: 0.2em 0 0 0;
 }

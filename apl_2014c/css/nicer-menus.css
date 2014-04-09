@@ -11,14 +11,14 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a {
   padding: 3px 9px 6px !important;
   margin-left: -8px;
 }
-/* line 19, ../sass/nicer-menus.scss */
+/* line 21, ../sass/nicer-menus.scss */
 div#mini-panel-apl_2014_top div.panel-col-bottom li:hover > a,
 div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel-apl_2014_top div.panel-col-bottom li.over > a {
   background-color: white;
   color: #0069aa !important;
 }
 
-/* line 32, ../sass/nicer-menus.scss */
+/* line 34, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20,
 #block-nice-menus-1,
 #block-nice-menus-2 {
@@ -75,7 +75,7 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel
 #block-nice-menus-2 ul li.active-trail {
   font-weight: bold;
 }
-/* line 72, ../sass/nicer-menus.scss */
+/* line 73, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li.active-trail > a,
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li.active-trail a.active,
 #block-nice-menus-1 ul li.active-trail > a,
@@ -98,7 +98,7 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel
 #block-nice-menus-2 ul li.active-trail li a {
   font-weight: normal;
 }
-/* line 93, ../sass/nicer-menus.scss */
+/* line 94, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.menu a, #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.nice-menu a,
 #block-nice-menus-1 ul.menu a,
 #block-nice-menus-1 ul.nice-menu a,
@@ -106,7 +106,7 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel
 #block-nice-menus-2 ul.nice-menu a {
   padding: 3px 5px;
 }
-/* line 97, ../sass/nicer-menus.scss */
+/* line 98, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.menu, #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.nice-menu-down,
 #block-nice-menus-1 ul.menu,
 #block-nice-menus-1 ul.nice-menu-down,
@@ -148,7 +148,7 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel
 #block-nice-menus-2 ul li a {
   color: white;
 }
-/* line 116, ../sass/nicer-menus.scss */
+/* line 117, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li a:hover, #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li a.qtip-hover,
 #block-nice-menus-1 ul li a:hover,
 #block-nice-menus-1 ul li a.qtip-hover,

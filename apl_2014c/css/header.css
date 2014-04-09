@@ -1,0 +1,17 @@
+/* line 3, ../sass/header.scss */
+body,
+div,
+#header {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 8, ../sass/header.scss */
+#header h2.pane-title {
+  display: none;
+}
+
+/* line 12, ../sass/header.scss */
+#page, .region-bottom {
+  max-width: none !important;
+}

@@ -1,0 +1,14 @@
+body,
+div,
+#header {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#header {
+	h2.pane-title {
+		display: none;
+	}
+}
+#page, .region-bottom {
+    max-width: none !important;
+}

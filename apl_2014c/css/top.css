@@ -37,7 +37,7 @@ body {
 #mini-panel-ask_us p span {
   display: inline-block;
 }
-/* line 34, ../sass/top.scss */
+/* line 36, ../sass/top.scss */
 #mini-panel-ask_us p span.mon, #mini-panel-ask_us p span.fri, #mini-panel-ask_us p span.sun {
   margin-top: 10px;
 }
@@ -47,7 +47,7 @@ body div div.panel-display {
   margin-bottom: 0px !important;
 }
 
-/* line 49, ../sass/top.scss */
+/* line 50, ../sass/top.scss */
 .panel-2col .panel-col-first .inside,
 .panel-2col .panel-col-first .inside p {
   margin: 0 0 0 0 !important;
@@ -106,7 +106,7 @@ div#mini-panel-clone_of_messages div.messages.warning p a:hover {
 div#mini-panel-apl_2014_top {
   background-color: white;
 }
-/* line 97, ../sass/top.scss */
+/* line 98, ../sass/top.scss */
 div#mini-panel-apl_2014_top .panel-col-top,
 div#mini-panel-apl_2014_top .panel-col-bottom {
   width: 100%;
