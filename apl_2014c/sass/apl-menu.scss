@@ -30,6 +30,7 @@ div#mini-panel-apl_2014_top {
 				padding: 2px 9px 4px !important;
 			 	text-decoration: none;
 				text-transform: none;
+				font-size: 18px;
 				
 			&:hover {
 				text-decoration: none;
@@ -46,6 +47,6 @@ div#mini-panel-apl_2014_top {
 
 
 div.qtip {
-	border-top: 1px solid red !important;
+	border-top: 1px solid $yellow !important;
 }
 

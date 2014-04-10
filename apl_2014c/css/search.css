@@ -8,7 +8,7 @@
   float: right;
 }
 
-/* line 16, ../sass/search.scss */
+/* line 13, ../sass/search.scss */
 #header h2.block-title,
 #header #form_catalog,
 #header #form_site,
@@ -21,22 +21,26 @@
   float: right;
   clear: right;
   margin-bottom: 10px;
-  right: 0;
+  margin-right: 10px;
 }
-/* line 29, ../sass/search.scss */
+/* line 25, ../sass/search.scss */
+#aplCustomSearchWrapper2 form#globalSearch {
+  position: relative;
+}
+/* line 28, ../sass/search.scss */
 #aplCustomSearchWrapper2 input {
   float: right;
 }
-/* line 32, ../sass/search.scss */
+/* line 31, ../sass/search.scss */
 #aplCustomSearchWrapper2 input#search_input {
   width: 275px;
   float: none !important;
-  padding-bottom: 5px;
+  padding-bottom: 7px;
   padding-left: 5px;
   padding-right: 24px !important;
   padding-top: 8px !important;
 }
-/* line 45, ../sass/search.scss */
+/* line 39, ../sass/search.scss */
 #aplCustomSearchWrapper2 input.search_button {
   background-image: url("http://alis.dev/apr7/sites/all/themes/apl_2014c/images/search_icon.png");
   background-color: white;
@@ -49,28 +53,28 @@
   right: 3px;
   cursor: pointer;
 }
-/* line 57, ../sass/search.scss */
+/* line 50, ../sass/search.scss */
 #aplCustomSearchWrapper2 input.search_button:hover {
   background-position: 33px 0;
 }
-/* line 60, ../sass/search.scss */
+/* line 53, ../sass/search.scss */
 #aplCustomSearchWrapper2 input.search_button:active {
   background-position: 38px 1px;
 }
-/* line 64, ../sass/search.scss */
+/* line 57, ../sass/search.scss */
 #aplCustomSearchWrapper2 .searchOptions {
   clear: both;
   margin-top: 5px;
   *margin-top: 27px;
 }
-/* line 70, ../sass/search.scss */
+/* line 61, ../sass/search.scss */
 #aplCustomSearchWrapper2 .searchOptions input {
   float: left;
 }
-/* line 73, ../sass/search.scss */
+/* line 64, ../sass/search.scss */
 #aplCustomSearchWrapper2 .searchOptions label {
   font-weight: normal;
   float: left;
-  margin: -2px 15px 0 2px;
+  margin: 2px 10px 0 0;
   *margin-top: 0;
 }

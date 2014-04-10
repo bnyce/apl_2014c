@@ -30,15 +30,16 @@ div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a {
   padding: 2px 9px 4px !important;
   text-decoration: none;
   text-transform: none;
+  font-size: 18px;
 }
-/* line 34, ../sass/apl-menu.scss */
+/* line 35, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a:hover {
   text-decoration: none;
   background-color: white;
   color: #0069aa;
 }
 
-/* line 48, ../sass/apl-menu.scss */
+/* line 49, ../sass/apl-menu.scss */
 div.qtip {
-  border-top: 1px solid red !important;
+  border-top: 1px solid #fdb813 !important;
 }

@@ -11,7 +11,9 @@ stylesheets[all][] = system.messages.css
 stylesheets[all][] = system.theme.css
 
 ; Then we add our own stylesheet.
-stylesheets[all][] = css/styles.css
+;stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/html.css
+stylesheets[all][] = css/admin.css
 stylesheets[all][] = css/top.css
 stylesheets[all][] = css/header.css
 stylesheets[all][] = css/coa-header.css
@@ -19,6 +21,8 @@ stylesheets[all][] = css/apl-menu.css
 stylesheets[all][] = css/search.css
 ;stylesheets[all][] = css/nicer-menus.css
 stylesheets[all][] = css/megamenus.css
+stylesheets[all][] = css/page.css
+stylesheets[all][] = css/highlighted.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html

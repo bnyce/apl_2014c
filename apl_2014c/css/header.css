@@ -2,30 +2,31 @@
 body {
   overflow-x: hidden;
   overflow-y: scroll;
+  font: 13px Arial,Helvetica,sans-serif;
   margin: 0 auto;
   padding: 0;
 }
-/* line 9, ../sass/header.scss */
+/* line 10, ../sass/header.scss */
 body #header {
   margin: 0 auto;
   padding: 0 !important;
 }
 
-/* line 16, ../sass/header.scss */
+/* line 17, ../sass/header.scss */
 #header h2.pane-title {
   display: none;
 }
 
-/* line 21, ../sass/header.scss */
+/* line 22, ../sass/header.scss */
 #page, .region-bottom {
   max-width: none !important;
 }
 
-/* line 25, ../sass/header.scss */
+/* line 26, ../sass/header.scss */
 div#mini-panel-apl_2014_top {
   background-color: white;
 }
-/* line 29, ../sass/header.scss */
+/* line 28, ../sass/header.scss */
 div#mini-panel-apl_2014_top .panel-col-top,
 div#mini-panel-apl_2014_top .center-wrapper,
 div#mini-panel-apl_2014_top .panel-col-bottom {
@@ -36,12 +37,12 @@ div#mini-panel-apl_2014_top .panel-col-top,
 div#mini-panel-apl_2014_top .panel-col-bottom {
   width: 100%;
 }
-/* line 37, ../sass/header.scss */
+/* line 38, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper {
   min-height: 100px;
   position: relative;
 }
-/* line 42, ../sass/header.scss */
+/* line 43, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper a#apl_logo_a {
   display: block;
   height: 100px;
