@@ -3,13 +3,13 @@
 body {
     overflow-x: hidden;
     overflow-y: scroll;
-}
-
-body,
-div,
-#header {
 	margin: 0 auto;
 	padding: 0;
+
+	#header {
+		margin: 0 auto;
+		padding: 0 !important;
+	}
 }
 
 #header {
@@ -24,55 +24,27 @@ div,
 
 div#mini-panel-apl_2014_top {
 	background-color: white;
-	
+	.panel-col-top,
+	.center-wrapper,
+	.panel-col-bottom {
+		margin: 0;
+	}	
 	.panel-col-top,
 	.panel-col-bottom {
 		width: 100%;
 	}
 	
 	.center-wrapper {
-		min-height: 72px;
+		min-height: 100px;
 		position: relative;
+		.inside {
+		}
 		a#apl_logo_a {
 			display: block;
 			height: 100px;
 			width: 100px;
 		}
 	}
-	
-
-	.panel-col-bottom {
-		background-color: $blue;
 		
-		ul.menu li {
-			border-bottom: 3px solid $blue;
-			display: inline-block;
-			
-			a {
-			color: white;
-			font-size: 1.4em;
-			text-transform: none;
-			
-			&:hover {
-				text-decoration: none;
-				background-color: white;
-				color: $blue;
-			}
-		}
-		}
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }

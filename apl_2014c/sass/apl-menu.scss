@@ -1,0 +1,53 @@
+@import "colors";
+
+div#mini-panel-apl_2014_top {
+
+		div.panel-col-bottom 
+		
+		li {
+
+
+		}
+
+	
+
+
+
+.panel-col-bottom {
+	background-color: $blue;
+	ul.menu {
+		margin: 0;
+		padding: 0;
+	
+		li {
+			border-bottom: 3px solid $blue;
+			display: inline-block;
+			margin-right: 5px !important;
+		
+			&:last-child {
+				margin-right: 0 !important;
+			}
+		
+			&:hover > a, a.qtip-hover, &.over > a {	
+				background-color: white;
+				color: $blue !important;
+			}
+		
+			a {
+				color: white;
+				padding: 3px 9px 6px !important;
+				margin-left: -8px;
+			 	text-decoration: none;
+				text-transform: none;
+				
+			&:hover {
+				text-decoration: none;
+				background-color: white;
+				color: $blue;
+			}
+			}
+		}
+	}
+}
+
+}

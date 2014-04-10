@@ -90,23 +90,3 @@ div#mini-panel-clone_of_messages div.messages.warning p a:hover {
   border-bottom: 1px solid #001421;
   text-decoration: none;
 }
-
-/* line 91, ../sass/top.scss */
-div#mini-panel-apl_2014_top .panel-col-first {
-  float: left;
-  position: relative;
-  min-width: 580px;
-  width: 50%;
-}
-/* line 96, ../sass/top.scss */
-div#mini-panel-apl_2014_top .panel-col-first .inside {
-  float: right;
-  width: 580px;
-  top: 2px;
-}
-/* line 102, ../sass/top.scss */
-div#mini-panel-apl_2014_top .panel-col-last {
-  float: right;
-  margin-left: 20px;
-  width: 340px;
-}

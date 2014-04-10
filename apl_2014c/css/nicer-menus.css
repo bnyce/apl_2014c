@@ -1,38 +1,38 @@
-/* line 10, ../sass/nicer-menus.scss */
+/* line 5, ../sass/nicer-menus.scss */
 div#mini-panel-apl_2014_top div.panel-col-bottom li {
   margin-right: 5px !important;
 }
-/* line 12, ../sass/nicer-menus.scss */
+/* line 7, ../sass/nicer-menus.scss */
 div#mini-panel-apl_2014_top div.panel-col-bottom li:last-child {
   margin-right: 0 !important;
 }
-/* line 15, ../sass/nicer-menus.scss */
+/* line 10, ../sass/nicer-menus.scss */
 div#mini-panel-apl_2014_top div.panel-col-bottom li a {
   padding: 3px 9px 6px !important;
   margin-left: -8px;
 }
-/* line 21, ../sass/nicer-menus.scss */
+/* line 16, ../sass/nicer-menus.scss */
 div#mini-panel-apl_2014_top div.panel-col-bottom li:hover > a,
 div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel-apl_2014_top div.panel-col-bottom li.over > a {
   background-color: white;
   color: #0069aa !important;
 }
 
-/* line 34, ../sass/nicer-menus.scss */
+/* line 29, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20,
 #block-nice-menus-1,
 #block-nice-menus-2 {
   background-color: #0069aa;
   clear: both;
 }
-/* line 36, ../sass/nicer-menus.scss */
+/* line 31, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.menu,
 #block-nice-menus-1 ul.menu,
 #block-nice-menus-2 ul.menu {
   padding-left: 0;
   margin-left: 4px;
 }
-/* line 42, ../sass/nicer-menus.scss */
+/* line 37, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li a.active,
 #block-nice-menus-1 ul li a.active,
 #block-nice-menus-2 ul li a.active {
@@ -40,20 +40,20 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel
   background-color: white;
   color: #0069aa;
 }
-/* line 49, ../sass/nicer-menus.scss */
+/* line 44, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 h2,
 #block-nice-menus-1 h2,
 #block-nice-menus-2 h2 {
   display: none;
 }
-/* line 53, ../sass/nicer-menus.scss */
+/* line 48, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li,
 #block-nice-menus-1 ul li,
 #block-nice-menus-2 ul li {
   border: none;
   margin-left: 1px;
 }
-/* line 54, ../sass/nicer-menus.scss */
+/* line 49, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li ul,
 #block-nice-menus-1 ul li ul,
 #block-nice-menus-2 ul li ul {
@@ -63,19 +63,19 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel
   border-width: 11px 0 0 11px;
   border-color: transparent transparent transparent #0088dd;
 }
-/* line 61, ../sass/nicer-menus.scss */
+/* line 56, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li ul li,
 #block-nice-menus-1 ul li ul li,
 #block-nice-menus-2 ul li ul li {
   margin-left: 0;
 }
-/* line 71, ../sass/nicer-menus.scss */
+/* line 66, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li.active-trail,
 #block-nice-menus-1 ul li.active-trail,
 #block-nice-menus-2 ul li.active-trail {
   font-weight: bold;
 }
-/* line 73, ../sass/nicer-menus.scss */
+/* line 68, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li.active-trail > a,
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li.active-trail a.active,
 #block-nice-menus-1 ul li.active-trail > a,
@@ -86,19 +86,19 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel
   color: #0069aa;
   font-weight: bold;
 }
-/* line 79, ../sass/nicer-menus.scss */
+/* line 74, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li.active-trail ul li a:hover,
 #block-nice-menus-1 ul li.active-trail ul li a:hover,
 #block-nice-menus-2 ul li.active-trail ul li a:hover {
   color: #0069aa;
 }
-/* line 86, ../sass/nicer-menus.scss */
+/* line 81, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li.active-trail li a,
 #block-nice-menus-1 ul li.active-trail li a,
 #block-nice-menus-2 ul li.active-trail li a {
   font-weight: normal;
 }
-/* line 94, ../sass/nicer-menus.scss */
+/* line 89, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.menu a, #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.nice-menu a,
 #block-nice-menus-1 ul.menu a,
 #block-nice-menus-1 ul.nice-menu a,
@@ -106,7 +106,7 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel
 #block-nice-menus-2 ul.nice-menu a {
   padding: 3px 5px;
 }
-/* line 98, ../sass/nicer-menus.scss */
+/* line 93, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.menu, #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.nice-menu-down,
 #block-nice-menus-1 ul.menu,
 #block-nice-menus-1 ul.nice-menu-down,
@@ -116,7 +116,7 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel
   float: none;
   margin-left: 4px;
 }
-/* line 102, ../sass/nicer-menus.scss */
+/* line 97, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.menu > li, #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul.nice-menu-down > li,
 #block-nice-menus-1 ul.menu > li,
 #block-nice-menus-1 ul.nice-menu-down > li,
@@ -124,31 +124,31 @@ div#mini-panel-apl_2014_top div.panel-col-bottom li a.qtip-hover, div#mini-panel
 #block-nice-menus-2 ul.nice-menu-down > li {
   padding-right: 10px;
 }
-/* line 106, ../sass/nicer-menus.scss */
+/* line 101, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li,
 #block-nice-menus-1 ul li,
 #block-nice-menus-2 ul li {
   background-color: #0069aa;
 }
-/* line 107, ../sass/nicer-menus.scss */
+/* line 102, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li.menuparent,
 #block-nice-menus-1 ul li.menuparent,
 #block-nice-menus-2 ul li.menuparent {
   background-image: none;
 }
-/* line 109, ../sass/nicer-menus.scss */
+/* line 104, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li.menuparent a,
 #block-nice-menus-1 ul li.menuparent a,
 #block-nice-menus-2 ul li.menuparent a {
   padding: 3px 5px;
 }
-/* line 114, ../sass/nicer-menus.scss */
+/* line 109, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li a,
 #block-nice-menus-1 ul li a,
 #block-nice-menus-2 ul li a {
   color: white;
 }
-/* line 117, ../sass/nicer-menus.scss */
+/* line 112, ../sass/nicer-menus.scss */
 #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li a:hover, #block-menu-block-23 div.menu-name-menu-apl-2013-06-20 ul li a.qtip-hover,
 #block-nice-menus-1 ul li a:hover,
 #block-nice-menus-1 ul li a.qtip-hover,
