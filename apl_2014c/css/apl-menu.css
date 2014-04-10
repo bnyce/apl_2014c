@@ -1,38 +1,44 @@
-/* line 16, ../sass/apl-menu.scss */
+/* line 6, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom {
   background-color: #0069aa;
 }
-/* line 18, ../sass/apl-menu.scss */
+/* line 8, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu {
   margin: 0;
   padding: 0;
+  border-top: 1px solid #0069aa;
+  border-bottom: 1px solid #0069aa;
 }
-/* line 22, ../sass/apl-menu.scss */
+/* line 14, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li {
   border-bottom: 3px solid #0069aa;
   display: inline-block;
   margin-right: 5px !important;
 }
-/* line 27, ../sass/apl-menu.scss */
+/* line 19, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li:last-child {
   margin-right: 0 !important;
 }
-/* line 31, ../sass/apl-menu.scss */
+/* line 23, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li:hover > a, div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a.qtip-hover, div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li.over > a {
   background-color: white;
   color: #0069aa !important;
 }
-/* line 36, ../sass/apl-menu.scss */
+/* line 28, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a {
   color: white;
-  padding: 3px 9px 6px !important;
-  margin-left: -8px;
+  padding: 2px 9px 4px !important;
   text-decoration: none;
   text-transform: none;
 }
-/* line 43, ../sass/apl-menu.scss */
+/* line 34, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a:hover {
   text-decoration: none;
   background-color: white;
   color: #0069aa;
+}
+
+/* line 48, ../sass/apl-menu.scss */
+div.qtip {
+  border-top: 1px solid red !important;
 }

@@ -2,22 +2,14 @@
 
 div#mini-panel-apl_2014_top {
 
-		div.panel-col-bottom 
-		
-		li {
-
-
-		}
-
-	
-
-
 
 .panel-col-bottom {
 	background-color: $blue;
 	ul.menu {
 		margin: 0;
 		padding: 0;
+		border-top: 1px solid $blue;
+		border-bottom: 1px solid $blue;
 	
 		li {
 			border-bottom: 3px solid $blue;
@@ -35,8 +27,7 @@ div#mini-panel-apl_2014_top {
 		
 			a {
 				color: white;
-				padding: 3px 9px 6px !important;
-				margin-left: -8px;
+				padding: 2px 9px 4px !important;
 			 	text-decoration: none;
 				text-transform: none;
 				
@@ -51,3 +42,10 @@ div#mini-panel-apl_2014_top {
 }
 
 }
+
+
+
+div.qtip {
+	border-top: 1px solid red !important;
+}
+
