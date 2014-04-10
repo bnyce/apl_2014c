@@ -30,16 +30,16 @@
   letter-spacing: 1px;
   font-weight: bold;
 }
-/* line 29, ../sass/coa-header.scss */
+/* line 28, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li a:hover {
   text-decoration: underline;
 }
-/* line 32, ../sass/coa-header.scss */
+/* line 31, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li a.active {
   color: #fdb813;
   font-weight: bold;
 }
-/* line 39, ../sass/coa-header.scss */
+/* line 40, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li.last a {
   border-right: none;
 }

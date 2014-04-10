@@ -42,22 +42,22 @@ div#mini-panel-apl_2014_top .center-wrapper a#apl_logo_a {
   height: 100px;
   width: 100px;
 }
-/* line 43, ../sass/header.scss */
+/* line 44, ../sass/header.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom {
   background-color: #0069aa;
 }
-/* line 46, ../sass/header.scss */
+/* line 47, ../sass/header.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li {
   border-bottom: 3px solid #0069aa;
   display: inline-block;
 }
-/* line 50, ../sass/header.scss */
+/* line 51, ../sass/header.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a {
   color: white;
   font-size: 1.4em;
   text-transform: none;
 }
-/* line 55, ../sass/header.scss */
+/* line 56, ../sass/header.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a:hover {
   text-decoration: none;
   background-color: white;

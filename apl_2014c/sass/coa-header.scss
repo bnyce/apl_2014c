@@ -19,12 +19,11 @@
 			a {
 				color: #BDBDBD;
 				text-decoration: none;
-
-                                text-transform: uppercase;
-                                border-right: 1px solid fade-out(#BDBDBD, 0.2);
-                                padding: 0 5px;
-                                letter-spacing: 1px;
-                                font-weight: bold;
+				text-transform: uppercase;
+                border-right: 1px solid fade-out(#BDBDBD, 0.2);
+                padding: 0 5px;
+				letter-spacing: 1px;
+				font-weight: bold;
 
 			&:hover {
 				text-decoration: underline;
@@ -34,11 +33,14 @@
 				font-weight: bold;
 			}
 			}	    
+			
 			&.first {
 			}
+			
 			&.last a {
 				border-right: none;
 			}
 			}
 		}
+	
 }
