@@ -113,37 +113,37 @@ h6 {
 
 /* line 94, ../sass/html.scss */
 p {
-  margin-bottom: 1em;
+  margin-bottom: 10px;
 }
-/* line 97, ../sass/html.scss */
+/* line 96, ../sass/html.scss */
 p#skip-link {
   margin-bottom: 0;
 }
 
-/* line 102, ../sass/html.scss */
+/* line 101, ../sass/html.scss */
 ul,
 ol {
   margin-left: 0;
   padding-left: 2em;
 }
 
-/* line 108, ../sass/html.scss */
+/* line 107, ../sass/html.scss */
 table {
   width: 99%;
 }
 
-/* line 114, ../sass/html.scss */
+/* line 113, ../sass/html.scss */
 tr.even td,
 tr.odd td {
   padding: 10px 5px;
 }
 
-/* line 119, ../sass/html.scss */
+/* line 118, ../sass/html.scss */
 tr.odd {
   background-color: white;
 }
 
-/* line 123, ../sass/html.scss */
+/* line 122, ../sass/html.scss */
 pre,
 code,
 tt {
@@ -151,7 +151,7 @@ tt {
   line-height: 1.5;
 }
 
-/* line 130, ../sass/html.scss */
+/* line 129, ../sass/html.scss */
 pre {
   background-color: #efefef;
   display: block;
@@ -160,37 +160,37 @@ pre {
   border: 1px solid #aaaaaa;
 }
 
-/* line 138, ../sass/html.scss */
+/* line 137, ../sass/html.scss */
 ul {
   list-style-type: disc;
 }
-/* line 140, ../sass/html.scss */
+/* line 139, ../sass/html.scss */
 ul ul {
   list-style-type: circle;
 }
-/* line 142, ../sass/html.scss */
+/* line 141, ../sass/html.scss */
 ul ul ul {
   list-style-type: square;
 }
-/* line 144, ../sass/html.scss */
+/* line 143, ../sass/html.scss */
 ul ul ul ul {
   list-style-type: circle;
 }
 
-/* line 151, ../sass/html.scss */
+/* line 150, ../sass/html.scss */
 ol {
   list-style-type: decimal;
 }
-/* line 153, ../sass/html.scss */
+/* line 152, ../sass/html.scss */
 ol ol {
   list-style-type: lower-alpha;
 }
-/* line 155, ../sass/html.scss */
+/* line 154, ../sass/html.scss */
 ol ol ol {
   list-style-type: decimal;
 }
 
-/* line 161, ../sass/html.scss */
+/* line 160, ../sass/html.scss */
 abbr {
   border-bottom: 1px dotted #666666;
   cursor: help;
