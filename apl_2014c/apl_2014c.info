@@ -24,6 +24,7 @@ stylesheets[all][] = css/megamenus.css
 stylesheets[all][] = css/page.css
 stylesheets[all][] = css/apl-slideshow.css
 stylesheets[all][] = css/highlighted.css
+stylesheets[all][] = css/calendars.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html

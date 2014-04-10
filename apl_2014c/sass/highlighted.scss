@@ -12,9 +12,6 @@
 }
 body div#mini-panel-highlighted_images_calendar div.panel-col-first {
 	min-width: 580px !important;
-	width: 50%;
-	margin-left: 20px !important;
-	margin-top: 10px !important;
 	div.inside {
 		float: right;
 	}
@@ -157,10 +154,10 @@ ul.bookSlide {
 			}
 		}
 		div.jcarousel-clip-horizontal {
-			left: 19px;
 			overflow: hidden;
-			width: 550px;
-			width: 542px;
+			max-width: 878px;
+			width: 100%;
+			margin: 0 auto;
 		}
 		div.jcarousel-container-horizontal {
 			height: 162px;

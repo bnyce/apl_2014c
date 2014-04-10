@@ -13,25 +13,22 @@
 /* line 13, ../sass/highlighted.scss */
 body div#mini-panel-highlighted_images_calendar div.panel-col-first {
   min-width: 580px !important;
-  width: 50%;
-  margin-left: 20px !important;
-  margin-top: 10px !important;
 }
-/* line 18, ../sass/highlighted.scss */
+/* line 15, ../sass/highlighted.scss */
 body div#mini-panel-highlighted_images_calendar div.panel-col-first div.inside {
   float: right;
 }
 
-/* line 23, ../sass/highlighted.scss */
+/* line 20, ../sass/highlighted.scss */
 body div#mini-panel-highlighted_images_calendar div.panel-col-last .date-heading h3 a {
   color: #0069aa;
 }
 
-/* line 29, ../sass/highlighted.scss */
+/* line 26, ../sass/highlighted.scss */
 #views_slideshow_cycle_main_clone_of_highlighted_images-panel_pane_8 {
   position: relative;
 }
-/* line 31, ../sass/highlighted.scss */
+/* line 28, ../sass/highlighted.scss */
 #views_slideshow_cycle_main_clone_of_highlighted_images-panel_pane_8 .views-field.views-field-title {
   z-index: 10;
   font-weight: bold;
@@ -44,19 +41,19 @@ body div#mini-panel-highlighted_images_calendar div.panel-col-last .date-heading
   overflow: hidden;
   width: 485px;
 }
-/* line 44, ../sass/highlighted.scss */
+/* line 41, ../sass/highlighted.scss */
 #views_slideshow_cycle_main_clone_of_highlighted_images-panel_pane_8 .views-field.views-field-body {
   bottom: 19px;
   z-index: 10;
   padding-left: 10px;
 }
-/* line 49, ../sass/highlighted.scss */
+/* line 46, ../sass/highlighted.scss */
 #views_slideshow_cycle_main_clone_of_highlighted_images-panel_pane_8 div.views-field-field-highlighted-image {
   z-index: 8;
   position: relative;
 }
 
-/* line 55, ../sass/highlighted.scss */
+/* line 52, ../sass/highlighted.scss */
 div.pane-content div.view div.view-content div.skin-default
 div#apl-slideshow
 div.views-slideshow-cycle-main-frame-row-item div.views-field div.field-content img {
@@ -64,12 +61,12 @@ div.views-slideshow-cycle-main-frame-row-item div.views-field div.field-content 
   height: 272px;
 }
 
-/* line 61, ../sass/highlighted.scss */
+/* line 58, ../sass/highlighted.scss */
 .view-clone-of-news.view-display-id-panel_pane_9.messages {
   margin-bottom: 10px;
 }
 
-/* line 65, ../sass/highlighted.scss */
+/* line 62, ../sass/highlighted.scss */
 .views_slideshow_pager_field_item {
   float: left;
   margin-right: 2px !important;
@@ -83,40 +80,40 @@ div.views-slideshow-cycle-main-frame-row-item div.views-field div.field-content 
   overflow: hidden;
   opacity: .85;
 }
-/* line 77, ../sass/highlighted.scss */
+/* line 74, ../sass/highlighted.scss */
 .views_slideshow_pager_field_item a {
   font-size: 0;
 }
-/* line 80, ../sass/highlighted.scss */
+/* line 77, ../sass/highlighted.scss */
 .views_slideshow_pager_field_item.active, .views_slideshow_pager_field_item:hover {
   background-color: #0088dd;
   opacity: 1;
   cursor: pointer;
 }
 
-/* line 88, ../sass/highlighted.scss */
+/* line 85, ../sass/highlighted.scss */
 div#apl-slideshow .views-content-title {
   font-size: 0;
 }
 
-/* line 102, ../sass/highlighted.scss */
+/* line 99, ../sass/highlighted.scss */
 div.view-display-id-panel_pane_1 div.views-field-field-highlighted-image div.field-content img {
   border-top-left-radius: 10px;
   width: 940px;
 }
 
-/* line 108, ../sass/highlighted.scss */
+/* line 105, ../sass/highlighted.scss */
 body #mini-panel-news div.views-field-field-main-image img {
   width: inherit;
   max-width: 100%;
   height: auto;
   margin-bottom: 5px;
 }
-/* line 117, ../sass/highlighted.scss */
+/* line 114, ../sass/highlighted.scss */
 body div.jcarousel-skin-default ul.bookSlide {
   margin-left: -4px !important;
 }
-/* line 120, ../sass/highlighted.scss */
+/* line 117, ../sass/highlighted.scss */
 body div.jcarousel-skin-default a.jcarousel-next-horizontal {
   background: none;
   position: absolute;
@@ -128,12 +125,12 @@ body div.jcarousel-skin-default a.jcarousel-next-horizontal {
   width: 0;
   height: 0;
 }
-/* line 132, ../sass/highlighted.scss */
+/* line 129, ../sass/highlighted.scss */
 body div.jcarousel-skin-default a.jcarousel-next-horizontal:hover {
   border-color: transparent green transparent #0088dd;
   background: none;
 }
-/* line 137, ../sass/highlighted.scss */
+/* line 134, ../sass/highlighted.scss */
 body div.jcarousel-skin-default a.jcarousel-prev-horizontal {
   background-position: 0 0;
   left: 4px;
@@ -149,19 +146,19 @@ body div.jcarousel-skin-default a.jcarousel-prev-horizontal {
   width: 0;
   height: 0;
 }
-/* line 154, ../sass/highlighted.scss */
+/* line 151, ../sass/highlighted.scss */
 body div.jcarousel-skin-default a.jcarousel-prev-horizontal:hover {
   border-color: transparent #0088dd transparent transparent;
   background: none;
 }
-/* line 159, ../sass/highlighted.scss */
+/* line 156, ../sass/highlighted.scss */
 body div.jcarousel-skin-default div.jcarousel-clip-horizontal {
-  left: 19px;
   overflow: hidden;
-  width: 550px;
-  width: 542px;
+  max-width: 878px;
+  width: 100%;
+  margin: 0 auto;
 }
-/* line 165, ../sass/highlighted.scss */
+/* line 162, ../sass/highlighted.scss */
 body div.jcarousel-skin-default div.jcarousel-container-horizontal {
   height: 162px;
   margin: 0;
