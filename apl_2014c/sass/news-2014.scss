@@ -16,7 +16,7 @@ div.news-img {
 div.news-urgent {
 	.views-field-body .field-content p {
 		color: red;
-		padding: 5px;
+//		padding: 5px;
 	}
 }
 
@@ -43,7 +43,8 @@ div.news-urgent {
 //		border-bottom: none;
 	}
 	.views-field.views-field-body {
-		font-size: large;
+		font-size: 20px;
+		line-height: 1.5em;
 		p {
 			margin-bottom: 0;
 		}

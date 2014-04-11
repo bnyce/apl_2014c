@@ -2,24 +2,25 @@
 #page #main {
   margin: 10px auto;
   max-width: 980px;
+  line-height: 1.5em;
 }
-/* line 9, ../sass/page.scss */
+/* line 11, ../sass/page.scss */
 #page #main .panel-2col .panel-col-first,
 #page #main .center-wrapper .panel-col-first {
   width: 580px;
   min-height: 100px;
 }
-/* line 14, ../sass/page.scss */
+/* line 16, ../sass/page.scss */
 #page #main .panel-2col .panel-col-last,
 #page #main .center-wrapper .panel-col-last {
   width: 360px;
   margin-left: 20px;
 }
-/* line 19, ../sass/page.scss */
+/* line 21, ../sass/page.scss */
 #page #main .more-link {
   text-align: right;
 }
-/* line 22, ../sass/page.scss */
+/* line 24, ../sass/page.scss */
 #page #main h2.pane-title {
   border-bottom: 1px solid #BFD3DF;
   margin: 5px 0 !important;

@@ -15,7 +15,6 @@ div.news-img div.views-row .views-field-body .field-content p {
 /* line 17, ../sass/news-2014.scss */
 div.news-urgent .views-field-body .field-content p {
   color: red;
-  padding: 5px;
 }
 
 /* line 27, ../sass/news-2014.scss */
@@ -36,14 +35,15 @@ div.news-urgent .views-field-body .field-content p {
 }
 /* line 45, ../sass/news-2014.scss */
 .pane-news .views-field.views-field-body {
-  font-size: large;
+  font-size: 20px;
+  line-height: 1.5em;
 }
-/* line 47, ../sass/news-2014.scss */
+/* line 48, ../sass/news-2014.scss */
 .pane-news .views-field.views-field-body p {
   margin-bottom: 0;
 }
 
-/* line 54, ../sass/news-2014.scss */
+/* line 55, ../sass/news-2014.scss */
 div.pane-news-panel-pane-7 p {
   margin-bottom: 5px;
 }

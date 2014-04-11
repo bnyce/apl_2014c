@@ -48,13 +48,6 @@
 
     <?php print render($page['header']); ?>
 
-<div class="messages error">
-<h2 class="element-invisible">Status message</h2>
-Every cache cleared.</div>
-
-<div class="messages status">
-<h2 class="element-invisible">Status message</h2>
-Every cache cleared.</div>
     <?php print $messages; ?>
   </header>
 
