@@ -1,6 +1,10 @@
 @import "colors";
 @import "typography";
 
+div.panel-2col-stacked .panel-col-first .inside {
+	margin: 0;
+}
+
 .pane-blogs-2014 .views-row {
 //	max-height: 170px;
 //	background-color: rgba(23,23,23,0.4);
