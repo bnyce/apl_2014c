@@ -1,5 +1,14 @@
 @import "colors";
 
+div.messages {
+	&.warning {
+		color: $black;
+	}
+	&.status {
+		border: none;
+	}
+}
+
 div#block-block-26 {
         h2 {
                 display: none;
@@ -20,8 +29,8 @@ div.error, label.error {
 	color: $black !important;
 }
 div.messages  {
-	padding-left: 3em !important;
-	margin: 10px 0;
+//	padding-left: 3em !important;
+	margin: 5px 0;
 }
 
 .region-help {
@@ -39,9 +48,9 @@ div.messages  {
 
 
 div.messages {
-  background-position: 8px 8px; /* LTR */
+  background-position: 5px 5px;
   background-repeat: no-repeat;
-  padding: 10px 10px 10px 50px; /* LTR */
+  padding: 10px 10px 10px 35px;
 }
 
 div.status {

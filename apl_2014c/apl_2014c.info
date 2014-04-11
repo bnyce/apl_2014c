@@ -29,6 +29,7 @@ stylesheets[all][] = css/newsletter.css
 stylesheets[all][] = css/blogs-2014.css
 stylesheets[all][] = css/news-2014.css
 stylesheets[all][] = css/messages-2014.css
+stylesheets[all][] = css/booklist.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html

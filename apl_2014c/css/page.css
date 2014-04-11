@@ -19,3 +19,9 @@
 #page #main .more-link {
   text-align: right;
 }
+/* line 22, ../sass/page.scss */
+#page #main h2.pane-title {
+  border-bottom: 1px solid #BFD3DF;
+  margin: 5px 0 !important;
+  padding: 5px 5px 0 0;
+}
