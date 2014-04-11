@@ -1,18 +1,15 @@
 @import "colors";
-$c_blue: #DAEAFA;
-$c_green: #D9E696;
-$c_pink: #F9E5DA;
-$c_text: #989898;
-$rr_green: #4F7019;
-$rr_green_light: #8AC32C;
 
 div.apl-calendar {
+	background-color: white;
+	
 	a {
 		text-decoration: none !important;
 	}
 
 	div.view-header {
 		padding-right: 2px;
+		
 		div.date-heading h3 {
 			font-size: 18px !important;
 			font-weight: normal;
@@ -23,6 +20,7 @@ div.apl-calendar {
 	ul {
 		list-style-type: none;
 	}
+	
 	table.mini {
 		
 		th.days {
@@ -43,13 +41,16 @@ div.apl-calendar {
 	&.today div {
 		background-color: green;
 	} 
+	
 	div {
 		background-color: $c_green;
+		
 	&.month.mini-day-on > a {
 	    background-color: $c_blue;
 	    display: block;
 	    height: 100%;
 	    width: 100%;
+	
 		&:hover {
 			background-color: $rr_green_light !important;
 			color: white;
@@ -74,8 +75,16 @@ div.apl-calendar {
 
 
 
-
-
+body div#mini-panel-highlighted_images_calendar div.panel-col-first {
+	div.inside {
+		float: right;
+	}
+}
+body div#mini-panel-highlighted_images_calendar div.panel-col-last {
+	.date-heading h3 a{
+		color: $blue;
+	}
+}
 
 
 
@@ -114,7 +123,7 @@ div.ajax-progress {
 			border-color: transparent $blue transparent transparent;
 			border-width: 12px 12px 12px 0px ;
 			&:hover {
-				border-color: transparent $c_blue transparent transparent;
+				border-color: transparent #0088DD transparent transparent;
 			}
 			}
 		}
@@ -147,8 +156,7 @@ div.ajax-progress {
 }
 div.apl-calendar {
 
-.calendar-calendar .month-view .mini,
-.calendar-calendar .month-view .full {
+.calendar-calendar .month-view .mini {
 tr {
 &.single-day {
 	display: none;
@@ -156,29 +164,14 @@ tr {
 &.date-box td {
 	background-color: $c_green;
 	border-left: 0;
-	&.past {
-		background-color: red !important;
-	}
-	&.past.empty {
-		background-color: white !important;
-	}
+
 }
-&.single-day .no-entry, 
-&.single-day .no-entry .inner {
-	height: 0 !important;
-	line-height: 0;
-	max-height: 0;
-}
+
 td {
 	border: 4px solid white;
 	padding: 0 !important;
 	color: $c_text;
-	.month.day > a {
-	    background-color: $c_blue !important;
-	    display: block;
-	    height: 100%;
-	    width: 100%;
-	}
+
 &.mini.today,
 &.date-box.today {
 	border: 4px solid white;
@@ -190,15 +183,8 @@ td {
 	background-color: white !important;
 	color: $c_green;
 }
-&.single-day div.monthview,
-&.single-day div.weekview,
-&.single-day div.dayview {
-	border: none;
-	height: 0;
-}
-&.single-day div.views-field-title {
-	border: none !important;
-}
+
+
 }
 }
 }

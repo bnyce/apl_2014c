@@ -1,26 +1,14 @@
 @import "colors";
 
-
+/*
 #mini-panel-highlighted_images_calendar {
     min-height: 320px;
 	margin: 0 auto !important;
 	max-width: 980px;
 }
+*/
 
-#block-panels-mini-highlighted-images-calendar {
-	background-color: white;
-}
-body div#mini-panel-highlighted_images_calendar div.panel-col-first {
-	min-width: 580px !important;
-	div.inside {
-		float: right;
-	}
-}
-body div#mini-panel-highlighted_images_calendar div.panel-col-last {
-	.date-heading h3 a{
-		color: $blue;
-	}
-}
+
 
 
 #views_slideshow_cycle_main_clone_of_highlighted_images-panel_pane_8 {
@@ -85,15 +73,6 @@ div#apl-slideshow {
 	.views-content-title {
 		font-size: 0;
 	}
-	div.views-field-title,
-	div.views-field-body {
-//		width: 580px;
-		.field-content {
-//			display: block;
-//			max-height: 20px;	
-//			padding: 2px 38px 0 5px;
-		}
-	}
 }
 div.view-display-id-panel_pane_1 {
 	div.views-field-field-highlighted-image div.field-content img {
@@ -120,10 +99,8 @@ ul.bookSlide {
 			right: 4px;
 			top: 50px;
 			border-style: solid;
-                	//border-width: 16px 0 16px 16px;
                 	border-width: 12px 0 12px 12px;
 			border-color: transparent green transparent $blue;
-//			border-radius: 4px;
 			width: 0;
 			height: 0;
 			&:hover {
@@ -139,13 +116,10 @@ ul.bookSlide {
 			border:20px solid green;
 			background: none;
 			position: absolute;
-			//right: 0;
 			top: 50px;
 			border-style: solid;
-                	//border-width: 16px 16px 16px 0;
                 	border-width: 12px 12px 12px 0;
 			border-color: transparent $blue transparent $blue;
-//			border-radius: 4px;
 			width: 0;
 			height: 0;
 			&:hover {

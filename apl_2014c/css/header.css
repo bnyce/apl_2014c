@@ -26,13 +26,13 @@ body #header {
 div#mini-panel-apl_2014_top {
   background-color: white;
 }
-/* line 28, ../sass/header.scss */
+/* line 30, ../sass/header.scss */
 div#mini-panel-apl_2014_top .panel-col-top,
 div#mini-panel-apl_2014_top .center-wrapper,
 div#mini-panel-apl_2014_top .panel-col-bottom {
   margin: 0;
 }
-/* line 33, ../sass/header.scss */
+/* line 34, ../sass/header.scss */
 div#mini-panel-apl_2014_top .panel-col-top,
 div#mini-panel-apl_2014_top .panel-col-bottom {
   width: 100%;

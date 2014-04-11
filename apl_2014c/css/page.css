@@ -1,8 +1,17 @@
 /* line 2, ../sass/page.scss */
 #page #main {
-  margin: 10px;
+  margin: 10px auto;
+  max-width: 980px;
 }
-/* line 4, ../sass/page.scss */
-#page #main div.panel-2col div.panel-col-first {
+/* line 9, ../sass/page.scss */
+#page #main .panel-2col .panel-col-first,
+#page #main .center-wrapper .panel-col-first {
   width: 580px;
+  min-height: 100px;
+}
+/* line 14, ../sass/page.scss */
+#page #main .panel-2col .panel-col-last,
+#page #main .center-wrapper .panel-col-last {
+  width: 360px;
+  margin-left: 20px;
 }

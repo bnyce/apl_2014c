@@ -13,7 +13,7 @@ div.apl-slideshow .field-content, div.apl-slideshow a {
 div.apl-slideshow p {
   margin-bottom: 0;
 }
-/* line 17, ../sass/apl-slideshow.scss */
+/* line 18, ../sass/apl-slideshow.scss */
 div.apl-slideshow .views-slideshow-controls-top,
 div.apl-slideshow .views-slideshow-controls-bottom {
   z-index: 13;
@@ -31,7 +31,7 @@ div.apl-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-p
 div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-text-pause {
   display: none;
 }
-/* line 29, ../sass/apl-slideshow.scss */
+/* line 30, ../sass/apl-slideshow.scss */
 div.apl-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-previous,
 div.apl-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-next,
 div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-text-previous,

@@ -1,8 +1,20 @@
 #page {
 #main {
-	margin:10px;
-	div.panel-2col div.panel-col-first {
-		width: 580px;
+	margin: 10px auto;
+	max-width: 980px;
+	
+	.panel-2col, 
+	.center-wrapper {
+	
+		.panel-col-first {
+			width: 580px;
+			min-height: 100px;
+		}
+	
+		.panel-col-last {
+			width: 360px;
+			margin-left: 20px;
+		}
 	}
 }
 }
