@@ -11,9 +11,8 @@ div.apl-calendar {
 		padding-right: 2px;
 		
 		div.date-heading h3 {
-			font-size: 18px !important;
+			font-size: 22px !important;
 			font-weight: normal;
-			line-height: 30px;
 		}
 	}
 
@@ -73,19 +72,27 @@ div.apl-calendar {
 
 }
 
-
-
-body div#mini-panel-highlighted_images_calendar div.panel-col-first {
-	div.inside {
-		float: right;
-	}
-}
 body div#mini-panel-highlighted_images_calendar div.panel-col-last {
 	.date-heading h3 a{
 		color: $blue;
 	}
 }
 
+ul.events-2014 {
+	list-style-type: none;
+	text-align: right;
+	margin-top: 10px;
+	li {
+		display: inline-block;
+		border-right: 1px solid silver;
+		margin-left: 5px;
+		padding-right: 5px;
+	&:last-child {
+		border: none;
+		padding-right: 0;
+	}
+	}
+}
 
 
 

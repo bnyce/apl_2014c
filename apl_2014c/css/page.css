@@ -15,3 +15,7 @@
   width: 360px;
   margin-left: 20px;
 }
+/* line 19, ../sass/page.scss */
+#page #main .more-link {
+  text-align: right;
+}

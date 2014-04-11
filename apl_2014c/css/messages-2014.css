@@ -1,0 +1,132 @@
+/* line 4, ../sass/messages-2014.scss */
+div#block-block-26 h2 {
+  display: none;
+}
+
+/* line 9, ../sass/messages-2014.scss */
+div.region-top-navigation {
+  margin-bottom: 10px;
+}
+
+/* line 13, ../sass/messages-2014.scss */
+#block-panels-mini-clone-of-messages {
+  margin: 0 0 10px 0 !important;
+}
+/* line 15, ../sass/messages-2014.scss */
+#block-panels-mini-clone-of-messages #mini-panel-clone_of_messages {
+  margin-bottom: 0;
+}
+
+/* line 19, ../sass/messages-2014.scss */
+div.error, label.error {
+  color: #001421 !important;
+}
+
+/* line 22, ../sass/messages-2014.scss */
+div.messages {
+  padding-left: 3em !important;
+  margin: 10px 0;
+}
+
+/* line 27, ../sass/messages-2014.scss */
+.region-help {
+  margin: 0;
+  padding: 0;
+}
+/* line 30, ../sass/messages-2014.scss */
+.region-help div {
+  padding: 0;
+  margin: 0;
+}
+/* line 34, ../sass/messages-2014.scss */
+.region-help h2 {
+  margin-bottom: .3em;
+}
+
+/* line 41, ../sass/messages-2014.scss */
+div.messages {
+  background-position: 8px 8px;
+  /* LTR */
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px 50px;
+  /* LTR */
+}
+
+/* line 47, ../sass/messages-2014.scss */
+div.status {
+  background-image: url(../../../../../misc/message-24-ok.png);
+  border-color: #a6b839;
+  background-color: #e7ea7f;
+  border: 1px solid #a6b839;
+}
+
+/* line 52, ../sass/messages-2014.scss */
+div.status,
+.ok {
+  color: #345729;
+}
+
+/* line 56, ../sass/messages-2014.scss */
+div.status,
+table tr.ok {
+  background-color: #e7ea7f;
+}
+
+/* line 61, ../sass/messages-2014.scss */
+div.warning {
+  background-image: url(../../../../../misc/message-24-warning.png);
+  border: none !important;
+}
+
+/* line 66, ../sass/messages-2014.scss */
+div.warning,
+.warning {
+  color: #da8c28;
+}
+
+/* line 70, ../sass/messages-2014.scss */
+div#mini-panel-clone_of_messages {
+  background-color: #fdb813;
+}
+
+/* line 73, ../sass/messages-2014.scss */
+div.warning,
+table tr.warning {
+  background-color: #fdb813;
+  border-bottom-left-radius: 0 !important;
+}
+
+/* line 79, ../sass/messages-2014.scss */
+div.error {
+  background-image: url(../../../../../misc/message-24-error.png);
+  border-color: #ed541d;
+}
+
+/* line 83, ../sass/messages-2014.scss */
+div.error,
+.error {
+  color: #8c2e0b;
+}
+
+/* line 87, ../sass/messages-2014.scss */
+div.error,
+table tr.error {
+  background-color: #fef5f1;
+}
+
+/* line 91, ../sass/messages-2014.scss */
+div.error p.error {
+  color: #333333;
+}
+
+/* line 95, ../sass/messages-2014.scss */
+div.messages ul {
+  margin: 0 0 0 1em;
+  /* LTR */
+  padding: 0;
+}
+
+/* line 99, ../sass/messages-2014.scss */
+div.messages ul li {
+  list-style-image: none;
+}
