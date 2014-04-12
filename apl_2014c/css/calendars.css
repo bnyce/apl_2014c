@@ -187,7 +187,7 @@ div.apl-calendar .calendar-calendar .month-view .mini tr td {
   padding: 0 !important;
   color: #989898;
 }
-/* line 185, ../sass/calendars.scss */
+/* line 186, ../sass/calendars.scss */
 div.apl-calendar .calendar-calendar .month-view .mini tr td.mini.today, div.apl-calendar .calendar-calendar .month-view .mini tr td.date-box.today {
   border: 4px solid white;
   background-color: green;

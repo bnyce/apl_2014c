@@ -15,7 +15,7 @@ div.blogs-list.front-page .views-field-body img {
   display: none;
 }
 
-/* line 30, ../sass/blogs-2014.scss */
+/* line 31, ../sass/blogs-2014.scss */
 div.blogs-list,
 div.events {
   padding-top: 10px;
@@ -88,7 +88,7 @@ div.events div.views-row div.views-field.views-field-body {
   padding-bottom: 10px;
   overflow: hidden;
 }
-/* line 101, ../sass/blogs-2014.scss */
+/* line 102, ../sass/blogs-2014.scss */
 div.blogs-list div.views-row div.views-field.views-field-field-date-and-time, div.blogs-list div.views-row div.views-field.views-field-field-event-loc,
 div.events div.views-row div.views-field.views-field-field-date-and-time,
 div.events div.views-row div.views-field.views-field-field-event-loc {
@@ -166,7 +166,7 @@ div.blog-post div.views-row div.views-field.views-field-body div.field-content {
 div.blog-post div.views-row div.views-field.views-field-body p:first-child {
   margin-top: 0px;
 }
-/* line 182, ../sass/blogs-2014.scss */
+/* line 183, ../sass/blogs-2014.scss */
 div.blog-post div.views-row div.views-field.views-field-field-tags, div.blog-post div.views-row div.views-field.views-field-created-1 {
   margin-left: 19px;
 }

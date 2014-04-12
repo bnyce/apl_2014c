@@ -31,12 +31,12 @@
 #mini-panel-ask_us p span {
   display: inline-block;
 }
-/* line 31, ../sass/top.scss */
+/* line 33, ../sass/top.scss */
 #mini-panel-ask_us p span.mon, #mini-panel-ask_us p span.fri, #mini-panel-ask_us p span.sun {
   margin-top: 10px;
 }
 
-/* line 43, ../sass/top.scss */
+/* line 44, ../sass/top.scss */
 .panel-2col .panel-col-first .inside,
 .panel-2col .panel-col-first .inside p {
   margin: 0 0 0 0 !important;

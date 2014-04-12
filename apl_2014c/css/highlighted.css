@@ -34,7 +34,7 @@
   position: relative;
 }
 
-/* line 40, ../sass/highlighted.scss */
+/* line 42, ../sass/highlighted.scss */
 div.pane-content div.view div.view-content div.skin-default
 div#apl-slideshow
 div.views-slideshow-cycle-main-frame-row-item div.views-field div.field-content img {
@@ -65,7 +65,7 @@ div.views-slideshow-cycle-main-frame-row-item div.views-field div.field-content 
 .views_slideshow_pager_field_item a {
   font-size: 0;
 }
-/* line 65, ../sass/highlighted.scss */
+/* line 66, ../sass/highlighted.scss */
 .views_slideshow_pager_field_item.active, .views_slideshow_pager_field_item:hover {
   background-color: #0088dd;
   opacity: 1;

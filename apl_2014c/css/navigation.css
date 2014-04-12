@@ -44,7 +44,7 @@ li a.active {
 #navigation .block {
   margin-bottom: 0;
 }
-/* line 54, ../sass/navigation.scss */
+/* line 55, ../sass/navigation.scss */
 #navigation .block-menu .block-title,
 #navigation .block-menu-block .block-title {
   position: absolute !important;
@@ -53,7 +53,7 @@ li a.active {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 59, ../sass/navigation.scss */
+/* line 60, ../sass/navigation.scss */
 #navigation ul.links,
 #navigation ul.menu {
   /* Menu block links */
