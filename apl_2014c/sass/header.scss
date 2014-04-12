@@ -38,12 +38,12 @@ div#mini-panel-apl_2014_top {
 	.center-wrapper {
 		@include responsive_container;
 		
-		min-height: 100px;
+		//min-height: 100px;
 		position: relative;
 
 			.panel-col-first {
 				width: 580px;
-				min-height: 100px;
+				//min-height: 100px;
 				float: left;
 			}
 
@@ -56,9 +56,10 @@ div#mini-panel-apl_2014_top {
 		.inside {
 		}
 		a#apl_logo_a {
-			display: block;
+	/*		display: block;
 			height: 100px;
 			width: 100px;
+	*/
 		}
 	}
 		
