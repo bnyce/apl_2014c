@@ -90,33 +90,33 @@ ul.events-2014 li {
   margin-left: 5px;
   padding-right: 5px;
 }
-/* line 93, ../sass/calendars.scss */
+/* line 94, ../sass/calendars.scss */
 ul.events-2014 li:last-child {
   border: none;
   padding-right: 0;
 }
 
-/* line 104, ../sass/calendars.scss */
+/* line 101, ../sass/calendars.scss */
 body div #mini-panel-highlighted_images_calendar div.panel-col-last {
   float: right;
   width: 340px;
   margin-left: 20px;
 }
 
-/* line 111, ../sass/calendars.scss */
+/* line 107, ../sass/calendars.scss */
 .view .date-nav-wrapper {
   margin: 0;
   padding: 0;
 }
-/* line 113, ../sass/calendars.scss */
+/* line 109, ../sass/calendars.scss */
 .view .date-nav-wrapper div.ajax-progress {
   display: block;
 }
-/* line 118, ../sass/calendars.scss */
+/* line 115, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav {
   padding: 0;
 }
-/* line 120, ../sass/calendars.scss */
+/* line 118, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li {
   padding: 0;
   background-color: transparent;
@@ -124,7 +124,7 @@ body div #mini-panel-highlighted_images_calendar div.panel-col-last {
   width: 0;
   height: 0;
 }
-/* line 126, ../sass/calendars.scss */
+/* line 125, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li.date-prev {
   right: 30px;
 }
@@ -133,33 +133,33 @@ body div #mini-panel-highlighted_images_calendar div.panel-col-last {
   margin-top: 25px !important;
   margin-right: 25px !important;
 }
-/* line 132, ../sass/calendars.scss */
+/* line 134, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li.date-prev a {
   border-color: transparent #0069aa transparent transparent;
   border-width: 12px 12px 12px 0px;
 }
-/* line 135, ../sass/calendars.scss */
+/* line 137, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li.date-prev a:hover {
   border-color: transparent #0088DD transparent transparent;
 }
-/* line 140, ../sass/calendars.scss */
+/* line 143, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li.date-next {
   right: 12px;
 }
-/* line 141, ../sass/calendars.scss */
+/* line 144, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li.date-next div.ajax-progress {
   margin-top: 5px !important;
 }
-/* line 145, ../sass/calendars.scss */
+/* line 150, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li.date-next a {
   border-color: transparent transparent transparent #0069aa;
   border-width: 12px 0 12px 12px;
 }
-/* line 148, ../sass/calendars.scss */
+/* line 153, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li.date-next a:hover {
   border-color: transparent transparent transparent #daeafa;
 }
-/* line 153, ../sass/calendars.scss */
+/* line 158, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li a {
   background-color: transparent;
   border-style: solid;
@@ -172,28 +172,28 @@ body div #mini-panel-highlighted_images_calendar div.panel-col-last {
   position: absolute;
 }
 
-/* line 171, ../sass/calendars.scss */
+/* line 176, ../sass/calendars.scss */
 div.apl-calendar .calendar-calendar .month-view .mini tr.single-day {
   display: none;
 }
-/* line 174, ../sass/calendars.scss */
+/* line 180, ../sass/calendars.scss */
 div.apl-calendar .calendar-calendar .month-view .mini tr.date-box td {
   background-color: #d9e696;
   border-left: 0;
 }
-/* line 180, ../sass/calendars.scss */
+/* line 185, ../sass/calendars.scss */
 div.apl-calendar .calendar-calendar .month-view .mini tr td {
   border: 4px solid white;
   padding: 0 !important;
   color: #989898;
 }
-/* line 186, ../sass/calendars.scss */
+/* line 190, ../sass/calendars.scss */
 div.apl-calendar .calendar-calendar .month-view .mini tr td.mini.today, div.apl-calendar .calendar-calendar .month-view .mini tr td.date-box.today {
   border: 4px solid white;
   background-color: green;
   color: white;
 }
-/* line 191, ../sass/calendars.scss */
+/* line 197, ../sass/calendars.scss */
 div.apl-calendar .calendar-calendar .month-view .mini tr td.empty {
   border-color: white;
   background-color: white !important;

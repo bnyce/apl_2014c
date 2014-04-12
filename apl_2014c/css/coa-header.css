@@ -4,6 +4,8 @@
 }
 /* line 5, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu {
+  margin: 0 auto !important;
+  max-width: 961px;
   overflow: hidden;
   line-height: 18px;
   margin: 0;
@@ -13,14 +15,13 @@
   font-family: Arial,Helvetica,sans-serif;
   font-size: 10px;
   font-weight: normal;
-  margin: 0 auto;
-  max-width: 980px;
+  text-align: center;
 }
-/* line 17, ../sass/coa-header.scss */
+/* line 20, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li {
   display: inline;
 }
-/* line 19, ../sass/coa-header.scss */
+/* line 22, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li a {
   color: #BDBDBD;
   text-decoration: none;
@@ -30,16 +31,16 @@
   letter-spacing: 1px;
   font-weight: bold;
 }
-/* line 28, ../sass/coa-header.scss */
+/* line 31, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li a:hover {
   text-decoration: underline;
 }
-/* line 31, ../sass/coa-header.scss */
+/* line 34, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li a.active {
   color: #fdb813;
   font-weight: bold;
 }
-/* line 40, ../sass/coa-header.scss */
+/* line 43, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li.last a {
   border-right: none;
 }

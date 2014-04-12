@@ -53,9 +53,9 @@ div.messages {
 
 /* line 50, ../sass/messages-2014.scss */
 div.messages {
-  background-position: 5px 5px;
+  background-position: 5px 1px;
   background-repeat: no-repeat;
-  padding: 10px 10px 10px 35px;
+  padding: 5px 10px 5px 35px;
 }
 
 /* line 56, ../sass/messages-2014.scss */
@@ -66,13 +66,13 @@ div.status {
   border: 1px solid #a6b839;
 }
 
-/* line 62, ../sass/messages-2014.scss */
+/* line 61, ../sass/messages-2014.scss */
 div.status,
 .ok {
   color: #345729;
 }
 
-/* line 66, ../sass/messages-2014.scss */
+/* line 65, ../sass/messages-2014.scss */
 div.status,
 table tr.ok {
   background-color: #e7ea7f;
@@ -84,7 +84,7 @@ div.warning {
   border: none !important;
 }
 
-/* line 76, ../sass/messages-2014.scss */
+/* line 75, ../sass/messages-2014.scss */
 div.warning,
 .warning {
   color: #da8c28;
@@ -95,7 +95,7 @@ div#mini-panel-clone_of_messages {
   background-color: #fdb813;
 }
 
-/* line 83, ../sass/messages-2014.scss */
+/* line 82, ../sass/messages-2014.scss */
 div.warning,
 table tr.warning {
   background-color: #fdb813;
@@ -108,13 +108,13 @@ div.error {
   border-color: #ed541d;
 }
 
-/* line 93, ../sass/messages-2014.scss */
+/* line 92, ../sass/messages-2014.scss */
 div.error,
 .error {
   color: #8c2e0b;
 }
 
-/* line 97, ../sass/messages-2014.scss */
+/* line 96, ../sass/messages-2014.scss */
 div.error,
 table tr.error {
   background-color: #fef5f1;

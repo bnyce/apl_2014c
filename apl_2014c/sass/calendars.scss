@@ -90,6 +90,7 @@ ul.events-2014 {
 		border-right: 1px solid silver;
 		margin-left: 5px;
 		padding-right: 5px;
+		
 	&:last-child {
 		border: none;
 		padding-right: 0;
@@ -97,16 +98,11 @@ ul.events-2014 {
 	}
 }
 
-
-
-
-
 body div #mini-panel-highlighted_images_calendar div.panel-col-last {
 	float: right;
 	width: 340px;
 	margin-left: 20px;
 }
-
 
 .view .date-nav-wrapper {
 
@@ -115,36 +111,45 @@ div.ajax-progress {
 }
 	margin: 0;
 	padding: 0;
+	
 	div.date-nav {
 		padding: 0;
+		
 	ul.pager li {
 		padding: 0;
 		background-color: transparent;
 		margin: 0;
 		width: 0;
 		height: 0;
+		
 		&.date-prev {
+			
 			div.ajax-progress {
 				margin-top: 25px !important;
 				margin-right: 25px !important;
 			}
+			
 			right: 30px;
+			
 			a {
-			border-color: transparent $blue transparent transparent;
-			border-width: 12px 12px 12px 0px ;
+				border-color: transparent $blue transparent transparent;
+				border-width: 12px 12px 12px 0px ;
 			&:hover {
 				border-color: transparent #0088DD transparent transparent;
 			}
 			}
 		}
+		
 		&.date-next {
 			div.ajax-progress {
 				margin-top: 5px !important;
 			}
+			
 			right: 12px;
+			
 			a {
-			border-color: transparent transparent transparent $blue;
-			border-width: 12px 0 12px 12px ;
+				border-color: transparent transparent transparent $blue;
+				border-width: 12px 0 12px 12px ;
 			&:hover {
 				border-color: transparent transparent transparent $c_blue;
 			}
@@ -171,10 +176,10 @@ tr {
 &.single-day {
 	display: none;
 }
+
 &.date-box td {
 	background-color: $c_green;
 	border-left: 0;
-
 }
 
 td {
@@ -188,6 +193,7 @@ td {
 	background-color: green;
 	color: white;
 }
+
 &.empty {
 	border-color: white;
 	background-color: white !important;

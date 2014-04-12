@@ -8,7 +8,7 @@
   float: right;
 }
 
-/* line 16, ../sass/search.scss */
+/* line 13, ../sass/search.scss */
 #header h2.block-title,
 #header #form_catalog,
 #header #form_site,
@@ -21,7 +21,6 @@
   float: right;
   clear: right;
   margin-bottom: 10px;
-  margin-right: 10px;
 }
 /* line 25, ../sass/search.scss */
 #aplCustomSearchWrapper2 form#globalSearch {
@@ -33,7 +32,7 @@
 }
 /* line 31, ../sass/search.scss */
 #aplCustomSearchWrapper2 input#search_input {
-  width: 275px;
+  width: 320px;
   float: none !important;
   padding-bottom: 7px;
   padding-left: 5px;
@@ -42,7 +41,7 @@
 }
 /* line 39, ../sass/search.scss */
 #aplCustomSearchWrapper2 input.search_button {
-  background-image: url("http://alis.dev/apr7/sites/all/themes/apl_2014c/images/search_icon.png");
+  background-image: url("http://localhost:8081/apr9e/sites/all/themes/apl_2014c/images/search_icon.png");
   background-color: white;
   height: 29px;
   width: 32px;

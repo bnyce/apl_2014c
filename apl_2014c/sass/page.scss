@@ -1,7 +1,9 @@
+@import "colors";
+
 #page {
 #main {
-	margin: 10px auto;
-	max-width: 980px;
+	@include responsive_container;
+
 
 	line-height: 1.5em;
 	

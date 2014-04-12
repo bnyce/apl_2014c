@@ -36,8 +36,23 @@ div#mini-panel-apl_2014_top {
 	}
 	
 	.center-wrapper {
+		@include responsive_container;
+		
 		min-height: 100px;
 		position: relative;
+
+			.panel-col-first {
+				width: 580px;
+				min-height: 100px;
+				float: left;
+			}
+
+			.panel-col-last {
+				width: 360px;
+				margin-left: 20px;
+				float: right;
+			}
+		
 		.inside {
 		}
 		a#apl_logo_a {

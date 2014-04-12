@@ -26,23 +26,37 @@ body #header {
 div#mini-panel-apl_2014_top {
   background-color: white;
 }
-/* line 30, ../sass/header.scss */
+/* line 28, ../sass/header.scss */
 div#mini-panel-apl_2014_top .panel-col-top,
 div#mini-panel-apl_2014_top .center-wrapper,
 div#mini-panel-apl_2014_top .panel-col-bottom {
   margin: 0;
 }
-/* line 34, ../sass/header.scss */
+/* line 33, ../sass/header.scss */
 div#mini-panel-apl_2014_top .panel-col-top,
 div#mini-panel-apl_2014_top .panel-col-bottom {
   width: 100%;
 }
 /* line 38, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper {
+  margin: 0 auto !important;
+  max-width: 961px;
   min-height: 100px;
   position: relative;
 }
-/* line 43, ../sass/header.scss */
+/* line 44, ../sass/header.scss */
+div#mini-panel-apl_2014_top .center-wrapper .panel-col-first {
+  width: 580px;
+  min-height: 100px;
+  float: left;
+}
+/* line 50, ../sass/header.scss */
+div#mini-panel-apl_2014_top .center-wrapper .panel-col-last {
+  width: 360px;
+  margin-left: 20px;
+  float: right;
+}
+/* line 58, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper a#apl_logo_a {
   display: block;
   height: 100px;

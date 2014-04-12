@@ -1,26 +1,26 @@
-/* line 2, ../sass/page.scss */
+/* line 4, ../sass/page.scss */
 #page #main {
-  margin: 10px auto;
-  max-width: 980px;
+  margin: 0 auto !important;
+  max-width: 961px;
   line-height: 1.5em;
 }
-/* line 11, ../sass/page.scss */
+/* line 13, ../sass/page.scss */
 #page #main .panel-2col .panel-col-first,
 #page #main .center-wrapper .panel-col-first {
   width: 580px;
   min-height: 100px;
 }
-/* line 16, ../sass/page.scss */
+/* line 18, ../sass/page.scss */
 #page #main .panel-2col .panel-col-last,
 #page #main .center-wrapper .panel-col-last {
   width: 360px;
   margin-left: 20px;
 }
-/* line 21, ../sass/page.scss */
+/* line 23, ../sass/page.scss */
 #page #main .more-link {
   text-align: right;
 }
-/* line 24, ../sass/page.scss */
+/* line 26, ../sass/page.scss */
 #page #main h2.pane-title {
   border-bottom: 1px solid #BFD3DF;
   margin: 5px 0 !important;
