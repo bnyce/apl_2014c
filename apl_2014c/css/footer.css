@@ -19,7 +19,7 @@
   margin: 0 auto;
   width: 980px;
   padding: 10px;
-  background-image: url("/nav2014h/sites/all/themes/apl_colores/images/footer4.png");
+  background-image: url("http://localhost:8081/apr9e/sites/all/themes/apl_2014c/images/footer.png");
   background-image: none\9;
   background-repeat: no-repeat;
   background-size: 48% auto !important;
@@ -41,7 +41,7 @@
   color: #fdb813;
   font-style: oblique;
   padding: 0;
-  background-image: url("/nav2014h/sites/all/themes/apl_colores/images/tagline_more_than_books2.png");
+  background-image: url("http://localhost:8081/apr9e/sites/all/themes/apl_2014c/images/tagline_more_than_books2.png");
   background-repeat: no-repeat;
   font-style: oblique;
   text-indent: -9999px;
@@ -87,17 +87,17 @@
   width: 32px;
 }
 /* line 65, ../sass/footer.scss */
-#footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4601 {
-  background-image: url("/nav2014h/sites/all/themes/apl_colores/images/tw.png") !important;
+#footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4536 {
+  background-image: url("http://austinlibrary.com/images/twitter512.png") !important;
   clear: both;
 }
 /* line 69, ../sass/footer.scss */
-#footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4602 {
-  background-image: url("/nav2014h/sites/all/themes/apl_colores/images/fb.png") !important;
+#footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4543 {
+  background-image: url("http://austinlibrary.com/images/facebook512.png") !important;
 }
 /* line 72, ../sass/footer.scss */
-#footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4603 {
-  background-image: url("/nav2014h/sites/all/themes/apl_colores/images/gp.png") !important;
+#footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4545 {
+  background-image: url("http://austinlibrary.com/images/googleplus512.png") !important;
   margin-right: 0;
 }
 /* line 86, ../sass/footer.scss */
