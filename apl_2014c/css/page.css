@@ -1,8 +1,14 @@
 /* line 4, ../sass/page.scss */
 #page #main {
   margin: 0 auto !important;
-  max-width: 961px;
+  max-width: 261px;
   line-height: 1.5em;
+}
+@media (min-width: 980px) {
+  /* line 4, ../sass/page.scss */
+  #page #main {
+    max-width: 961px;
+  }
 }
 /* line 13, ../sass/page.scss */
 #page #main .panel-2col .panel-col-first,

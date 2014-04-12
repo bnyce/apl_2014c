@@ -16,9 +16,22 @@ $rr_green: #4F7019;
 $rr_green_light: #8AC32C;
 
 
+
+
+
+@import "breakpoint";
+
+$high-tide: 980px;
+
+
 @mixin responsive_container {
 	margin: 0 auto !important;
-	max-width: 961px;
+	max-width: 261px;
+
+	
+	@include breakpoint($high-tide) {
+		max-width: 961px;
+	}
 }
 
 

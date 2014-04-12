@@ -40,14 +40,18 @@ div#mini-panel-apl_2014_top .panel-col-bottom {
 /* line 38, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper {
   margin: 0 auto !important;
-  max-width: 961px;
-  min-height: 100px;
+  max-width: 261px;
   position: relative;
+}
+@media (min-width: 980px) {
+  /* line 38, ../sass/header.scss */
+  div#mini-panel-apl_2014_top .center-wrapper {
+    max-width: 961px;
+  }
 }
 /* line 44, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper .panel-col-first {
   width: 580px;
-  min-height: 100px;
   float: left;
 }
 /* line 50, ../sass/header.scss */
@@ -58,7 +62,8 @@ div#mini-panel-apl_2014_top .center-wrapper .panel-col-last {
 }
 /* line 58, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper a#apl_logo_a {
-  display: block;
-  height: 100px;
-  width: 100px;
+  /*		display: block;
+  		height: 100px;
+  		width: 100px;
+  */
 }

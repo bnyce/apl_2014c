@@ -5,7 +5,7 @@
 /* line 5, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu {
   margin: 0 auto !important;
-  max-width: 961px;
+  max-width: 261px;
   overflow: hidden;
   line-height: 18px;
   margin: 0;
@@ -16,6 +16,12 @@
   font-size: 10px;
   font-weight: normal;
   text-align: center;
+}
+@media (min-width: 980px) {
+  /* line 5, ../sass/coa-header.scss */
+  .pane-menu-menu-coa-header ul.menu {
+    max-width: 961px;
+  }
 }
 /* line 20, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li {

@@ -3,36 +3,43 @@
   border-bottom: 10px solid #0069aa;
   border-top: 10px solid #0069aa;
   background-color: #174478;
+  padding-top: 10px;
   font-size: 12px;
   color: #333;
   float: none;
   clear: both;
 }
-/* line 16, ../sass/footer.scss */
+/* line 17, ../sass/footer.scss */
 #footer #mini-panel-footer_container {
   margin: 0 auto !important;
-  max-width: 961px;
+  max-width: 261px;
   background-image: url("http://localhost:8081/apr9e/sites/all/themes/apl_2014c/images/footer.png?b");
   background-image: none\9;
   background-repeat: no-repeat;
   background-size: 48% auto !important;
   background-position: 100px bottom;
 }
-/* line 19, ../sass/footer.scss */
+@media (min-width: 980px) {
+  /* line 17, ../sass/footer.scss */
+  #footer #mini-panel-footer_container {
+    max-width: 961px;
+  }
+}
+/* line 20, ../sass/footer.scss */
 #footer #mini-panel-footer_container .inside {
   margin-right: 0;
 }
-/* line 23, ../sass/footer.scss */
+/* line 24, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first {
   width: 580px;
 }
-/* line 27, ../sass/footer.scss */
+/* line 28, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #more-than-books {
   width: 220px;
   float: left;
   line-height: 20px;
 }
-/* line 32, ../sass/footer.scss */
+/* line 33, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #more-than-books h2.pane-title {
   border: none;
   color: #fdb813;
@@ -44,19 +51,19 @@
   text-indent: -9999px;
   height: 26px;
 }
-/* line 45, ../sass/footer.scss */
+/* line 46, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #more-than-books ul {
   padding-left: 5px !important;
 }
-/* line 49, ../sass/footer.scss */
+/* line 50, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #more-than-books ul li {
   list-style-type: none;
 }
-/* line 54, ../sass/footer.scss */
+/* line 55, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #connect-with-us {
   float: right;
 }
-/* line 58, ../sass/footer.scss */
+/* line 59, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #connect-with-us h2.pane-title {
   float: left;
   border: none;
@@ -65,11 +72,11 @@
   font-weight: normal;
   padding: 0;
 }
-/* line 67, ../sass/footer.scss */
+/* line 68, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul {
   padding-left: 5px !important;
 }
-/* line 71, ../sass/footer.scss */
+/* line 72, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li {
   cursor: pointer;
   float: left;
@@ -82,66 +89,66 @@
   text-indent: -9999px;
   width: 32px;
 }
-/* line 76, ../sass/footer.scss */
+/* line 77, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4536 {
   background-image: url("http://austinlibrary.com/images/twitter512.png") !important;
   clear: both;
 }
-/* line 80, ../sass/footer.scss */
+/* line 81, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4543 {
   background-image: url("http://austinlibrary.com/images/facebook512.png") !important;
 }
-/* line 83, ../sass/footer.scss */
+/* line 84, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4545 {
   background-image: url("http://www.austinlibrary.com/images/plus2.png") !important;
   margin-right: 0;
 }
-/* line 98, ../sass/footer.scss */
+/* line 99, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col {
   float: right;
   margin-right: 18px;
   width: 355px;
 }
-/* line 106, ../sass/footer.scss */
+/* line 107, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-last {
   width: 340px;
   padding-top: 0;
   margin-top: 0;
 }
-/* line 111, ../sass/footer.scss */
+/* line 112, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-last .inside {
   margin: 0;
 }
-/* line 128, ../sass/footer.scss */
+/* line 129, ../sass/footer.scss */
 #footer div.panel-col {
   float: left;
   width: 580px;
   float: left;
   min-height: 85px;
 }
-/* line 129, ../sass/footer.scss */
+/* line 130, ../sass/footer.scss */
 #footer div.panel-col h2.pane-title {
   border-bottom: none;
   padding-left: 15px;
   font-weight: normal;
   color: white;
 }
-/* line 136, ../sass/footer.scss */
+/* line 137, ../sass/footer.scss */
 #footer div.panel-col div.panel-col-first h2.pane-title {
   color: #fdb813;
 }
-/* line 140, ../sass/footer.scss */
+/* line 141, ../sass/footer.scss */
 #footer div.panel-col div.panel-col-first ul li:nth-child(2):before {
   color: #fdb813;
   font-size: x-small;
   content: "New! ";
 }
-/* line 149, ../sass/footer.scss */
+/* line 150, ../sass/footer.scss */
 #footer div.panel-col div.panel-col-first {
   background-image: none;
   width: 46%;
 }
-/* line 153, ../sass/footer.scss */
+/* line 154, ../sass/footer.scss */
 #footer div.panel-col div.panel-col {
   padding-right: 20px;
   width: 160px !important;
@@ -149,46 +156,46 @@
   border-left: none !important;
   padding-top: 0 !important;
 }
-/* line 159, ../sass/footer.scss */
+/* line 160, ../sass/footer.scss */
 #footer div.panel-col div.panel-col h2.pane-title {
   font-size: small;
 }
-/* line 167, ../sass/footer.scss */
+/* line 168, ../sass/footer.scss */
 #footer div.panel-col-last {
   float: right;
   margin-bottom: 0;
 }
-/* line 171, ../sass/footer.scss */
+/* line 172, ../sass/footer.scss */
 #footer tbody {
   border: none;
 }
-/* line 174, ../sass/footer.scss */
+/* line 175, ../sass/footer.scss */
 #footer a {
   color: white;
 }
-/* line 181, ../sass/footer.scss */
+/* line 182, ../sass/footer.scss */
 #footer p {
   margin-left: 19px;
   margin-top: 10px;
 }
 
-/* line 187, ../sass/footer.scss */
+/* line 188, ../sass/footer.scss */
 #bottom_links {
   margin: 0 0 10px 10px;
   height: 40px;
   padding-left: 0;
 }
-/* line 191, ../sass/footer.scss */
+/* line 192, ../sass/footer.scss */
 #bottom_links li {
   display: block;
   float: left;
   margin-right: 10px;
 }
-/* line 195, ../sass/footer.scss */
+/* line 196, ../sass/footer.scss */
 #bottom_links li:nth-child(3), #bottom_links li:nth-child(4), #bottom_links li:nth-child(5), #bottom_links li:nth-child(6), #bottom_links li:nth-child(7), #bottom_links li:nth-child(8), #bottom_links li:nth-child(9) {
   margin-top: 6px;
 }
-/* line 205, ../sass/footer.scss */
+/* line 206, ../sass/footer.scss */
 #bottom_links li:last-child {
   float: right;
   margin-right: 0;
