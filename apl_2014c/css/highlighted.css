@@ -98,7 +98,7 @@ body div.jcarousel-skin-default ul.bookSlide {
 body div.jcarousel-skin-default a.jcarousel-next-horizontal {
   background: none;
   position: absolute;
-  right: 4px;
+  right: -15px;
   top: 50px;
   border-style: solid;
   border-width: 12px 0 12px 12px;
@@ -114,7 +114,7 @@ body div.jcarousel-skin-default a.jcarousel-next-horizontal:hover {
 /* line 111, ../sass/highlighted.scss */
 body div.jcarousel-skin-default a.jcarousel-prev-horizontal {
   background-position: 0 0;
-  left: 4px;
+  left: -15px;
   position: absolute;
   top: 50px;
   border: 20px solid green;
@@ -135,7 +135,7 @@ body div.jcarousel-skin-default a.jcarousel-prev-horizontal:hover {
 /* line 130, ../sass/highlighted.scss */
 body div.jcarousel-skin-default div.jcarousel-clip-horizontal {
   overflow: hidden;
-  width: 89%;
+  width: 100%;
   margin: 0 auto;
 }
 /* line 135, ../sass/highlighted.scss */

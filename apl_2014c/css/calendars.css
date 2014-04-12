@@ -100,7 +100,7 @@ ul.events-2014 li:last-child {
 body div #mini-panel-highlighted_images_calendar div.panel-col-last {
   float: right;
   width: 340px;
-  margin-left: 20px;
+  margin-left: 21px;
 }
 
 /* line 107, ../sass/calendars.scss */
@@ -126,7 +126,7 @@ body div #mini-panel-highlighted_images_calendar div.panel-col-last {
 }
 /* line 125, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li.date-prev {
-  right: 30px;
+  right: 28px;
 }
 /* line 127, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li.date-prev div.ajax-progress {
