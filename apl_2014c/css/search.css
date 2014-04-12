@@ -49,28 +49,28 @@
   position: absolute;
   text-indent: -9999px;
   top: 3px;
-  right: 3px;
+  left: 100%;
   cursor: pointer;
 }
-/* line 50, ../sass/search.scss */
+/* line 51, ../sass/search.scss */
 #aplCustomSearchWrapper2 input.search_button:hover {
   background-position: 33px 0;
 }
-/* line 53, ../sass/search.scss */
+/* line 54, ../sass/search.scss */
 #aplCustomSearchWrapper2 input.search_button:active {
   background-position: 38px 1px;
 }
-/* line 57, ../sass/search.scss */
+/* line 58, ../sass/search.scss */
 #aplCustomSearchWrapper2 .searchOptions {
   clear: both;
   margin-top: 5px;
   *margin-top: 27px;
 }
-/* line 61, ../sass/search.scss */
+/* line 62, ../sass/search.scss */
 #aplCustomSearchWrapper2 .searchOptions input {
   float: left;
 }
-/* line 64, ../sass/search.scss */
+/* line 65, ../sass/search.scss */
 #aplCustomSearchWrapper2 .searchOptions label {
   font-weight: normal;
   float: left;

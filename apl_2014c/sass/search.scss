@@ -45,7 +45,8 @@
 		position: absolute;
 		text-indent: -9999px;
 		top: 3px;
-		right: 3px;
+	//	right: 3px;
+		left: 100%;
 		cursor: pointer;
 		&:hover {
 			background-position: 33px 0;
