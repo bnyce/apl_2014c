@@ -1,7 +1,7 @@
 /* line 4, ../sass/page.scss */
 #page #main {
   margin: 0 auto !important;
-  max-width: 261px;
+  width: 580px;
   line-height: 1.5em;
 }
 @media (min-width: 980px) {
@@ -15,18 +15,37 @@
 #page #main .center-wrapper .panel-col-first {
   width: 580px;
   min-height: 100px;
+  float: none;
+  margin: 10px auto;
 }
-/* line 18, ../sass/page.scss */
+@media (min-width: 980px) {
+  /* line 13, ../sass/page.scss */
+  #page #main .panel-2col .panel-col-first,
+  #page #main .center-wrapper .panel-col-first {
+    float: left;
+    margin: 10px;
+  }
+}
+/* line 25, ../sass/page.scss */
 #page #main .panel-2col .panel-col-last,
 #page #main .center-wrapper .panel-col-last {
   width: 360px;
-  margin-left: 20px;
+  float: none;
+  margin: 30px auto;
 }
-/* line 23, ../sass/page.scss */
+@media (min-width: 980px) {
+  /* line 25, ../sass/page.scss */
+  #page #main .panel-2col .panel-col-last,
+  #page #main .center-wrapper .panel-col-last {
+    float: right;
+    margin: 10px 0;
+  }
+}
+/* line 37, ../sass/page.scss */
 #page #main .more-link {
   text-align: right;
 }
-/* line 26, ../sass/page.scss */
+/* line 40, ../sass/page.scss */
 #page #main h2.pane-title {
   border-bottom: 1px solid #BFD3DF;
   margin: 5px 0 !important;

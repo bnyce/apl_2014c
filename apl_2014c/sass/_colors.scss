@@ -22,6 +22,9 @@ $rr_green_light: #8AC32C;
 @import "breakpoint";
 
 $high-tide: 980px;
+$two_columns: 962px;
+
+$big_column: 580px;
 
 
 $coa-break: 470px;
@@ -33,11 +36,11 @@ $menu-one: 1220px;
 
 @mixin responsive_container {
 	margin: 0 auto !important;
-	max-width: 261px;
+	width: $big_column;
 
 	
 	@include breakpoint($high-tide) {
-		width: 962px;
+		width: $two_columns;
 	}
 }
 

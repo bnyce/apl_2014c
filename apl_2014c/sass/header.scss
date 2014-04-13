@@ -42,7 +42,8 @@ div#mini-panel-apl_2014_top {
 		position: relative;
 
 			.panel-col-first {
-				width: 580px;
+//				width: $big_column;
+				width: 120px;
 				//min-height: 100px;
 				float: left;
 			}

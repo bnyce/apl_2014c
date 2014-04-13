@@ -11,13 +11,27 @@
 	.center-wrapper {
 	
 		.panel-col-first {
-			width: 580px;
+			width: $big_column;
 			min-height: 100px;
+			float: none;
+			margin: 10px auto;
+			
+			@include breakpoint($high-tide) {
+				float: left;
+				margin: 10px;
+			}
 		}
 	
 		.panel-col-last {
 			width: 360px;
-			margin-left: 20px;
+//			margin-left: 20px;
+			float: none;
+			margin: 30px auto;
+			
+			@include breakpoint($high-tide) {
+				float: right;
+				margin: 10px 0;
+			}
 		}
 	}
 	.more-link {

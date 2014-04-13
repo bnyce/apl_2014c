@@ -40,7 +40,7 @@ div#mini-panel-apl_2014_top .panel-col-bottom {
 /* line 38, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper {
   margin: 0 auto !important;
-  max-width: 261px;
+  width: 580px;
   position: relative;
 }
 @media (min-width: 980px) {
@@ -51,16 +51,16 @@ div#mini-panel-apl_2014_top .center-wrapper {
 }
 /* line 44, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper .panel-col-first {
-  width: 580px;
+  width: 120px;
   float: left;
 }
-/* line 50, ../sass/header.scss */
+/* line 51, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper .panel-col-last {
   width: 360px;
   margin-left: 20px;
   float: right;
 }
-/* line 58, ../sass/header.scss */
+/* line 59, ../sass/header.scss */
 div#mini-panel-apl_2014_top .center-wrapper a#apl_logo_a {
   /*		display: block;
   		height: 100px;

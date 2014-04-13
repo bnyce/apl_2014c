@@ -60,7 +60,11 @@ div.apl-calendar {
 		td.mini div {
 			float: none;
 			width: 100%;
-			height: 30px;
+			height: 50px;
+			
+			@include breakpoint($high-tide) {
+				height: 30px;
+			}
 			padding: 0 !important;
 			text-align: center;
 
@@ -99,9 +103,19 @@ ul.events-2014 {
 }
 
 body div #mini-panel-highlighted_images_calendar div.panel-col-last {
-	float: right;
-	width: 340px;
-	margin-left: 21px;
+	float: none;
+	width: $big_column !important;
+	margin-top: 30px;
+	
+	@include breakpoint($high-tide) {
+		width: 340px !important;
+		margin-top: 0;
+		float: right;
+	}
+	
+	.inside {
+	    margin: 0 !important;
+	}
 }
 
 .view .date-nav-wrapper {

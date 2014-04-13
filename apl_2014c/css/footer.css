@@ -12,7 +12,7 @@
 /* line 17, ../sass/footer.scss */
 #footer #mini-panel-footer_container {
   margin: 0 auto !important;
-  max-width: 261px;
+  width: 580px;
   background-image: url("http://localhost:8081/apr9e/sites/all/themes/apl_2014c/images/footer.png?b");
   background-image: none\9;
   background-repeat: no-repeat;
