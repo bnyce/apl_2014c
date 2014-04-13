@@ -28,7 +28,7 @@
   #page #main .panel-2col .panel-col-first,
   #page #main .center-wrapper .panel-col-first {
     float: left;
-    margin: 5px 0;
+    margin: 10px 0;
   }
 }
 /* line 29, ../sass/page.scss */
