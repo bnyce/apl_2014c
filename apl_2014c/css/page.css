@@ -18,34 +18,45 @@
   float: none;
   margin: 10px auto;
 }
+/* line 19, ../sass/page.scss */
+#page #main .panel-2col .panel-col-first .inside,
+#page #main .center-wrapper .panel-col-first .inside {
+  margin: 0;
+}
 @media (min-width: 980px) {
   /* line 13, ../sass/page.scss */
   #page #main .panel-2col .panel-col-first,
   #page #main .center-wrapper .panel-col-first {
     float: left;
-    margin: 10px;
+    margin: 5px 0;
   }
 }
-/* line 25, ../sass/page.scss */
+/* line 29, ../sass/page.scss */
 #page #main .panel-2col .panel-col-last,
 #page #main .center-wrapper .panel-col-last {
-  width: 360px;
   float: none;
   margin: 30px auto;
+  width: 580px;
+}
+/* line 35, ../sass/page.scss */
+#page #main .panel-2col .panel-col-last .inside,
+#page #main .center-wrapper .panel-col-last .inside {
+  margin: 0;
 }
 @media (min-width: 980px) {
-  /* line 25, ../sass/page.scss */
+  /* line 29, ../sass/page.scss */
   #page #main .panel-2col .panel-col-last,
   #page #main .center-wrapper .panel-col-last {
     float: right;
+    width: 360px;
     margin: 10px 0;
   }
 }
-/* line 37, ../sass/page.scss */
+/* line 46, ../sass/page.scss */
 #page #main .more-link {
   text-align: right;
 }
-/* line 40, ../sass/page.scss */
+/* line 49, ../sass/page.scss */
 #page #main h2.pane-title {
   border-bottom: 1px solid #BFD3DF;
   margin: 5px 0 !important;

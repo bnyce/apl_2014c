@@ -16,20 +16,29 @@
 			float: none;
 			margin: 10px auto;
 			
+			.inside {
+				margin: 0;
+			}
+			
 			@include breakpoint($high-tide) {
 				float: left;
-				margin: 10px;
+				margin: 10px 0;
 			}
 		}
 	
 		.panel-col-last {
-			width: 360px;
 //			margin-left: 20px;
 			float: none;
 			margin: 30px auto;
+			width: $big_column;
+			
+			.inside {
+				margin: 0;
+			}
 			
 			@include breakpoint($high-tide) {
 				float: right;
+				width: 360px;
 				margin: 10px 0;
 			}
 		}
