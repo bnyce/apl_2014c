@@ -24,13 +24,20 @@ $rr_green_light: #8AC32C;
 $high-tide: 980px;
 
 
+$coa-break: 470px;
+$coa-one: 880px;
+
+$menu-break: 720px;
+$menu-one: 1220px;
+
+
 @mixin responsive_container {
 	margin: 0 auto !important;
 	max-width: 261px;
 
 	
 	@include breakpoint($high-tide) {
-		max-width: 962px;
+		width: 962px;
 	}
 }
 

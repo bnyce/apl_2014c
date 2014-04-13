@@ -3,7 +3,18 @@
 .pane-menu-menu-coa-header {
 	background-color: $black;
 	ul.menu {
-		@include responsive_container;
+		width: $coa-break;
+		margin: 0 auto !important;
+		li:nth-child(5) a {
+			border-right-width: 0;
+		}
+		
+		@include breakpoint($coa-one) {
+			width: 100%;
+			li:nth-child(5) a {
+				border-right-width: 1px;
+			}
+		}
 
 		overflow: hidden;
 		line-height: 18px;

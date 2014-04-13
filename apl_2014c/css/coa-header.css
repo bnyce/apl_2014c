@@ -4,8 +4,8 @@
 }
 /* line 5, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu {
+  width: 470px;
   margin: 0 auto !important;
-  max-width: 261px;
   overflow: hidden;
   line-height: 18px;
   margin: 0;
@@ -17,17 +17,25 @@
   font-weight: normal;
   text-align: center;
 }
-@media (min-width: 980px) {
+/* line 8, ../sass/coa-header.scss */
+.pane-menu-menu-coa-header ul.menu li:nth-child(5) a {
+  border-right-width: 0;
+}
+@media (min-width: 880px) {
   /* line 5, ../sass/coa-header.scss */
   .pane-menu-menu-coa-header ul.menu {
-    max-width: 962px;
+    width: 100%;
+  }
+  /* line 14, ../sass/coa-header.scss */
+  .pane-menu-menu-coa-header ul.menu li:nth-child(5) a {
+    border-right-width: 1px;
   }
 }
-/* line 20, ../sass/coa-header.scss */
+/* line 31, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li {
   display: inline;
 }
-/* line 22, ../sass/coa-header.scss */
+/* line 33, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li a {
   color: #BDBDBD;
   text-decoration: none;
@@ -37,16 +45,16 @@
   letter-spacing: 1px;
   font-weight: bold;
 }
-/* line 31, ../sass/coa-header.scss */
+/* line 42, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li a:hover {
   text-decoration: underline;
 }
-/* line 34, ../sass/coa-header.scss */
+/* line 45, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li a.active {
   color: #fdb813;
   font-weight: bold;
 }
-/* line 43, ../sass/coa-header.scss */
+/* line 54, ../sass/coa-header.scss */
 .pane-menu-menu-coa-header ul.menu li.last a {
   border-right: none;
 }

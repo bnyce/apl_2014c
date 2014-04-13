@@ -4,27 +4,44 @@ div#mini-panel-apl_2014_top .panel-col-bottom {
 }
 /* line 8, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu {
-  margin: 0;
+  margin: 0 auto 10p;
   padding: 0;
-  border-top: 1px solid #0069aa;
+  text-align: center;
+  width: 720px;
+  border-top: 6px solid #0069aa;
   border-bottom: 1px solid #0069aa;
 }
-/* line 14, ../sass/apl-menu.scss */
+/* line 17, ../sass/apl-menu.scss */
+div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li {
+  margin-bottom: 5px;
+}
+@media (min-width: 1220px) {
+  /* line 8, ../sass/apl-menu.scss */
+  div#mini-panel-apl_2014_top .panel-col-bottom ul.menu {
+    width: 100%;
+    border-top: 1px solid #0069aa;
+  }
+  /* line 25, ../sass/apl-menu.scss */
+  div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li {
+    margin-bottom: 0;
+  }
+}
+/* line 33, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li {
   border-bottom: 3px solid #0069aa;
   display: inline-block;
   margin-right: 5px !important;
 }
-/* line 19, ../sass/apl-menu.scss */
+/* line 38, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li:last-child {
   margin-right: 0 !important;
 }
-/* line 23, ../sass/apl-menu.scss */
+/* line 42, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li:hover > a, div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a.qtip-hover, div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li.over > a {
   background-color: white;
   color: #0069aa !important;
 }
-/* line 28, ../sass/apl-menu.scss */
+/* line 47, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a {
   color: white;
   padding: 2px 9px 4px !important;
@@ -32,14 +49,14 @@ div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a {
   text-transform: none;
   font-size: 18px;
 }
-/* line 35, ../sass/apl-menu.scss */
+/* line 54, ../sass/apl-menu.scss */
 div#mini-panel-apl_2014_top .panel-col-bottom ul.menu li a:hover {
   text-decoration: none;
   background-color: white;
   color: #0069aa;
 }
 
-/* line 49, ../sass/apl-menu.scss */
+/* line 68, ../sass/apl-menu.scss */
 div.qtip {
   border-top: 1px solid #fdb813 !important;
 }

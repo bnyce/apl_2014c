@@ -6,9 +6,28 @@ div#mini-panel-apl_2014_top {
 .panel-col-bottom {
 	background-color: $blue;
 	ul.menu {
-		margin: 0;
+		margin: 0 auto 10p;
 		padding: 0;
-		border-top: 1px solid $blue;
+		text-align: center;
+	//	border-top: 1px solid $blue;
+		
+	//	@include breakpoint($menu-break) {
+			width: $menu-break;
+			border-top: 6px solid $blue;
+			li {
+				margin-bottom: 5px;
+			}
+	//	}
+		
+		@include breakpoint($menu-one) {
+			width: 100%;
+			border-top: 1px solid $blue;
+			li {
+				margin-bottom: 0;
+			}
+		}
+		
+		
 		border-bottom: 1px solid $blue;
 	
 		li {

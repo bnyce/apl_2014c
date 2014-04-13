@@ -46,7 +46,7 @@ div#mini-panel-apl_2014_top .center-wrapper {
 @media (min-width: 980px) {
   /* line 38, ../sass/header.scss */
   div#mini-panel-apl_2014_top .center-wrapper {
-    max-width: 962px;
+    width: 962px;
   }
 }
 /* line 44, ../sass/header.scss */

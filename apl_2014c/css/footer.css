@@ -22,7 +22,7 @@
 @media (min-width: 980px) {
   /* line 17, ../sass/footer.scss */
   #footer #mini-panel-footer_container {
-    max-width: 962px;
+    width: 962px;
   }
 }
 /* line 20, ../sass/footer.scss */
