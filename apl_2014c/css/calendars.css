@@ -67,7 +67,7 @@ div.apl-calendar table.mini td.mini div {
 @media (min-width: 980px) {
   /* line 60, ../sass/calendars.scss */
   div.apl-calendar table.mini td.mini div {
-    height: 30px;
+    height: 37px;
   }
 }
 /* line 71, ../sass/calendars.scss */
@@ -175,7 +175,7 @@ body div #mini-panel-highlighted_images_calendar div.panel-col-last .inside {
 }
 /* line 167, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li.date-next a:hover {
-  border-color: transparent transparent transparent #daeafa;
+  border-color: transparent transparent transparent #0088DD;
 }
 /* line 172, ../sass/calendars.scss */
 .view .date-nav-wrapper div.date-nav ul.pager li a {

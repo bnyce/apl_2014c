@@ -26,6 +26,9 @@ div.apl-slideshow {
         .views-slideshow-controls-text-pause {
                 display: none;
         }
+        .views-slideshow-controls-text-next {
+			margin-right: -3px;
+		}
         .views-slideshow-controls-text-previous,
         .views-slideshow-controls-text-next {
             display: block;
@@ -65,7 +68,7 @@ div.apl-slideshow {
                 position: relative;
                 &:after {
                         position: absolute;
-                        bottom: 3px;
+                        bottom: 6px;
                         bottom: -64px\9;
                         content: "";
                         height: 64px;

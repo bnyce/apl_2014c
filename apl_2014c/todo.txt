@@ -4,3 +4,4 @@ to do:
 * fix events
 * fix other pages
 * make responsive
+* fix right arrow hover state

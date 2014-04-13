@@ -32,6 +32,11 @@ div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-tex
   display: none;
 }
 /* line 29, ../sass/apl-slideshow.scss */
+div.apl-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-next,
+div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-text-next {
+  margin-right: -3px;
+}
+/* line 32, ../sass/apl-slideshow.scss */
 div.apl-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-previous,
 div.apl-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-next,
 div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-text-previous,
@@ -48,19 +53,19 @@ div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-tex
   border-width: 12px 12px 12px 0;
   display: block;
 }
-/* line 42, ../sass/apl-slideshow.scss */
+/* line 45, ../sass/apl-slideshow.scss */
 div.apl-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-previous:hover,
 div.apl-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-next:hover,
 div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-text-previous:hover,
 div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-text-next:hover {
   border-color: transparent #0088dd;
 }
-/* line 46, ../sass/apl-slideshow.scss */
+/* line 49, ../sass/apl-slideshow.scss */
 div.apl-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-next,
 div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-text-next {
   border-width: 12px 0 12px 12px;
 }
-/* line 49, ../sass/apl-slideshow.scss */
+/* line 52, ../sass/apl-slideshow.scss */
 div.apl-slideshow .views-slideshow-controls-top .views-slideshow-pager-fields,
 div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-fields {
   position: absolute;
@@ -68,22 +73,22 @@ div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-fields
   bottom: 27px\9;
   right: 0;
 }
-/* line 55, ../sass/apl-slideshow.scss */
+/* line 58, ../sass/apl-slideshow.scss */
 div.apl-slideshow .views-slideshow-controls-top .views-slideshow-controls-text,
 div.apl-slideshow .views-slideshow-controls-bottom .views-slideshow-controls-text {
   position: absolute;
   bottom: 32px;
   right: 4px;
 }
-/* line 63, ../sass/apl-slideshow.scss */
+/* line 66, ../sass/apl-slideshow.scss */
 div.apl-slideshow div.views-field-field-highlighted-image {
   z-index: 8;
   position: relative;
 }
-/* line 66, ../sass/apl-slideshow.scss */
+/* line 69, ../sass/apl-slideshow.scss */
 div.apl-slideshow div.views-field-field-highlighted-image:after {
   position: absolute;
-  bottom: 3px;
+  bottom: 6px;
   bottom: -64px\9;
   content: "";
   height: 64px;
@@ -93,7 +98,7 @@ div.apl-slideshow div.views-field-field-highlighted-image:after {
   width: 100%;
   z-index: 6;
 }
-/* line 80, ../sass/apl-slideshow.scss */
+/* line 83, ../sass/apl-slideshow.scss */
 div.apl-slideshow div.views-field-title {
   position: absolute;
   font-weight: bold;
@@ -103,7 +108,7 @@ div.apl-slideshow div.views-field-title {
   z-index: 10;
   padding-top: 3px;
 }
-/* line 90, ../sass/apl-slideshow.scss */
+/* line 93, ../sass/apl-slideshow.scss */
 div.apl-slideshow div.views-field-body {
   position: absolute;
   bottom: 17px;
