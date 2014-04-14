@@ -2287,3 +2287,9 @@ $handler->display->display_options['filters']['created']['field'] = 'created';
 $handler->display->display_options['filters']['created']['operator'] = '<=';
 $handler->display->display_options['filters']['created']['value']['value'] = 'now';
 $handler->display->display_options['filters']['created']['value']['type'] = 'offset';
+/* Filter criterion: Content: Main Image (field_main_image:height) */
+$handler->display->display_options['filters']['field_main_image_height']['id'] = 'field_main_image_height';
+$handler->display->display_options['filters']['field_main_image_height']['table'] = 'field_data_field_main_image';
+$handler->display->display_options['filters']['field_main_image_height']['field'] = 'field_main_image_height';
+$handler->display->display_options['filters']['field_main_image_height']['operator'] = '>';
+$handler->display->display_options['filters']['field_main_image_height']['value']['value'] = '0';
