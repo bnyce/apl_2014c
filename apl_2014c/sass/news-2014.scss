@@ -1,6 +1,6 @@
 @import "colors";
 
-div.news-img {
+div.news-sticky-img {
 	border: 1px solid $yellow;
 	
 	div.views-row {
@@ -13,11 +13,11 @@ div.news-img {
 	}
 }
 
-div.news-urgent {
-	.views-field-body .field-content p {
-		color: red;
-//		padding: 5px;
-	}
+div.news-sticky {
+		a {
+			color: red !important;
+		}
+		font-size: 20px;
 }
 
 
