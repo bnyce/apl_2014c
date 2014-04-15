@@ -13,7 +13,7 @@
 #footer #mini-panel-footer_container {
   margin: 0 auto !important;
   width: 580px;
-  background-image: url("http://austinlibrary.com/images/apl_2014c/footer.png?b");
+  background-image: url("http://austinlibrary.com/images/apl_2014/footer.png?b");
   background-image: none\9;
   background-repeat: no-repeat;
   background-size: 48% auto !important;
@@ -45,7 +45,7 @@
   color: #fdb813;
   font-style: oblique;
   padding: 0;
-  background-image: url("http://austinlibrary.com/images/apl_2014c/tagline_more_than_books2.png");
+  background-image: url("http://austinlibrary.com/images/apl_2014/tagline_more_than_books2.png");
   background-repeat: no-repeat;
   font-style: oblique;
   text-indent: -9999px;
@@ -91,16 +91,16 @@
 }
 /* line 77, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4536 {
-  background-image: url("http://austinlibrary.com/images/apl_2014c/twitter512.png") !important;
+  background-image: url("http://austinlibrary.com/images/apl_2014/twitter512.png") !important;
   clear: both;
 }
 /* line 81, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4543 {
-  background-image: url("http://austinlibrary.com/images/apl_2014c/facebook512.png") !important;
+  background-image: url("http://austinlibrary.com/images/apl_2014/facebook512.png") !important;
 }
 /* line 84, ../sass/footer.scss */
 #footer #mini-panel-footer_container div.panel-col-first #connect-with-us ul li.menu-mlid-4545 {
-  background-image: url("http://www.austinlibrary.com/images/apl_2014c/plus2.png") !important;
+  background-image: url("http://www.austinlibrary.com/images/apl_2014/plus2.png") !important;
   margin-right: 0;
 }
 /* line 99, ../sass/footer.scss */

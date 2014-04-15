@@ -1,6 +1,6 @@
 screenshot  = screenshot.png
-name        = APL 2014c
-description = Read the <a href="https://drupal.org/node/873778">online docs</a> or the included README.txt on how to create a theme with Zen.
+name        = APL 2014
+description = The main theme for the Austin Public Library.
 
 core        = 7.x
 base theme  = zen
@@ -115,13 +115,13 @@ settings[zen_breadcrumb]           = yes
 settings[zen_breadcrumb_separator] = ' › '
 settings[zen_breadcrumb_home]      = 1
 settings[zen_breadcrumb_trailing]  = 0
-settings[zen_breadcrumb_title]     = 0
+settings[zen_breadcrumb_title]     = 1
 settings[zen_skip_link_anchor]     = main-menu
 settings[zen_skip_link_text]       = Jump to navigation
 settings[zen_html5_respond_meta][] = respond
 settings[zen_html5_respond_meta][] = html5
 settings[zen_html5_respond_meta][] = meta
-settings[zen_rebuild_registry]     = 1
+settings[zen_rebuild_registry]     = 0
 settings[zen_wireframes]           = 0
 
 ; To make this sub-theme an admin theme with shortcut links next to titles,
