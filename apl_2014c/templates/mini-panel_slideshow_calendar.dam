@@ -11,7 +11,13 @@ $mini->relationships = array();
 $display = new panels_display();
 $display->layout = 'twocol';
 $display->layout_settings = array();
-$display->panel_settings = array();
+$display->panel_settings = array(
+  'style_settings' => array(
+    'default' => NULL,
+    'left' => NULL,
+    'right' => NULL,
+  ),
+);
 $display->cache = array();
 $display->title = '';
 $display->content = array();
@@ -20,12 +26,14 @@ $display->panels = array();
   $pane->pid = 'new-1';
   $pane->panel = 'left';
   $pane->type = 'views_panes';
-  $pane->subtype = 'highlighted_images-panel_pane_8';
+  $pane->subtype = 'apl_slideshow_2014-panel_pane_8';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array();
   $pane->cache = array();
-  $pane->style = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
   $pane->css = array();
   $pane->extras = array();
   $pane->position = 0;
@@ -56,7 +64,9 @@ $display->panels = array();
     'override_title_text' => '',
   );
   $pane->cache = array();
-  $pane->style = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
   $pane->css = array();
   $pane->extras = array();
   $pane->position = 0;
@@ -79,8 +89,13 @@ $display->panels = array();
     'substitute' => TRUE,
   );
   $pane->cache = array();
-  $pane->style = array();
-  $pane->css = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array(
+    'css_id' => '',
+    'css_class' => 'apl-events',
+  );
   $pane->extras = array();
   $pane->position = 1;
   $pane->locks = array();
