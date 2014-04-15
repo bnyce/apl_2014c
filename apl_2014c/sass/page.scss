@@ -3,18 +3,30 @@
 #page {
 #main {
 
-.breadcrumb li {
-    display: inline;
-    list-style: none outside none;
+.breadcrumb ol {
+	padding-left: 0;
+	li {
+	    display: inline;
+	    list-style: none outside none;
+	}
 }
+
 
 .item-list .pager {
     clear: both;
     text-align: center;
+	li {
+	    background-image: none;
+	    display: inline;
+	    list-style-type: none;
+	    padding: 5px;
+	}
 }
+
 	@include responsive_container;
 
 
+	margin-bottom: 20px !important;
 	line-height: 1.5em;
 	
 	.panel-2col, 

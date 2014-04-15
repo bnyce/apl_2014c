@@ -37,6 +37,10 @@ stylesheets[all][] = css/austin-music.css
 stylesheets[all][] = css/infoguides.css
 stylesheets[all][] = css/meeting-rooms.css
 stylesheets[all][] = css/apl_recommends.css
+stylesheets[all][] = css/press-release.css
+stylesheets[all][] = css/user-login.css
+stylesheets[all][] = css/events.css
+stylesheets[all][] = css/bt.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html

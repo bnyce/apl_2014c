@@ -4,6 +4,17 @@
 	display: none;
 }
 
+
+#mini-panel-ahc_about_us_address_hours,
+#mini-panel-apl_2014_recycled_reads_3 {
+	span:last-child {
+		display: block;
+	}
+}
+
+
+
+
 $mm_container: 600px;
 $mm_width: $mm_container - 20; // width of container - 10px each for left, right margins
 $mm_3col: ($mm_width - (3 - 1)*20) / 3 ; // width of each column, if there are 3

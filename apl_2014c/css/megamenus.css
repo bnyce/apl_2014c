@@ -3,7 +3,13 @@
   display: none;
 }
 
-/* line 12, ../sass/megamenus.scss */
+/* line 10, ../sass/megamenus.scss */
+#mini-panel-ahc_about_us_address_hours span:last-child,
+#mini-panel-apl_2014_recycled_reads_3 span:last-child {
+  display: block;
+}
+
+/* line 23, ../sass/megamenus.scss */
 li.menu-mlid-4435,
 li.menu-mlid-4454,
 li.menu-mlid-4464,
@@ -13,130 +19,130 @@ li.menu-mlid-4430 {
   margin-top: 20px !important;
 }
 
-/* line 21, ../sass/megamenus.scss */
+/* line 32, ../sass/megamenus.scss */
 #mini-panel-research div.panel-col-first {
   width: 33%;
 }
-/* line 24, ../sass/megamenus.scss */
+/* line 35, ../sass/megamenus.scss */
 #mini-panel-research div.panel-col-last {
   width: 67%;
 }
-/* line 26, ../sass/megamenus.scss */
+/* line 37, ../sass/megamenus.scss */
 #mini-panel-research div.panel-col-last #mini-panel-information_guides div.panel-panel {
   width: 50%;
 }
 
-/* line 33, ../sass/megamenus.scss */
+/* line 44, ../sass/megamenus.scss */
 #mini-panel-austin_history_center_all div.panel-col div.panel-col-first {
   width: 67%;
 }
-/* line 35, ../sass/megamenus.scss */
+/* line 46, ../sass/megamenus.scss */
 #mini-panel-austin_history_center_all div.panel-col div.panel-col-first #mini-panel-ahc_about_us_address_hours div.panel-panel {
   width: 50%;
 }
-/* line 39, ../sass/megamenus.scss */
+/* line 50, ../sass/megamenus.scss */
 #mini-panel-austin_history_center_all div.panel-col-last {
   width: 33%;
 }
-/* line 42, ../sass/megamenus.scss */
+/* line 53, ../sass/megamenus.scss */
 #mini-panel-austin_history_center_all #mini-panel-austin_history_center_bottom
 div.panel-col-first {
   width: 33% !important;
 }
 
-/* line 50, ../sass/megamenus.scss */
+/* line 61, ../sass/megamenus.scss */
 #mini-panel-locations div.panel-col-first {
   width: 33%;
 }
-/* line 53, ../sass/megamenus.scss */
+/* line 64, ../sass/megamenus.scss */
 #mini-panel-locations div.panel-col-last {
   width: 67%;
 }
-/* line 55, ../sass/megamenus.scss */
+/* line 66, ../sass/megamenus.scss */
 #mini-panel-locations div.panel-col-last #mini-panel-library_locations div.panel-panel {
   width: 50%;
 }
 
-/* line 61, ../sass/megamenus.scss */
+/* line 72, ../sass/megamenus.scss */
 .panel-pane.pane-custom.pane-4 > p {
   margin-left: 10px;
 }
 
-/* line 67, ../sass/megamenus.scss */
+/* line 78, ../sass/megamenus.scss */
 div.qtip-light {
   border: 1px solid #efefef;
 }
 
-/* line 70, ../sass/megamenus.scss */
+/* line 81, ../sass/megamenus.scss */
 div.qtip-wrapper {
   width: 100% !important;
   background-color: white;
 }
-/* line 73, ../sass/megamenus.scss */
+/* line 84, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper {
   max-width: 980px;
   margin: 0 auto;
 }
-/* line 76, ../sass/megamenus.scss */
+/* line 87, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper .panel-3col-33 .panel-col .inside {
   margin: 0;
 }
-/* line 79, ../sass/megamenus.scss */
+/* line 90, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content {
   background-color: #0088dd !important;
   padding: 0 !important;
 }
-/* line 81, ../sass/megamenus.scss */
+/* line 92, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.panel-2col img {
   max-width: 280px;
   height: auto;
 }
-/* line 85, ../sass/megamenus.scss */
+/* line 96, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.panel-2col div.panel-col-last {
   margin-right: 0px;
 }
-/* line 90, ../sass/megamenus.scss */
+/* line 101, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.panel-1col ul.menu {
   padding-left: 0 !important;
 }
-/* line 93, ../sass/megamenus.scss */
+/* line 104, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.panel-1col li {
   padding-left: 0 !important;
 }
-/* line 99, ../sass/megamenus.scss */
+/* line 110, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.panel-3col-33-stacked div.panel-panel ul.menu {
   padding: 0;
 }
-/* line 101, ../sass/megamenus.scss */
+/* line 112, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.panel-3col-33-stacked div.panel-panel ul.menu ul.menu {
   padding-left: 0;
 }
-/* line 105, ../sass/megamenus.scss */
+/* line 116, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.panel-3col-33-stacked div.panel-panel div.inside {
   margin: 0;
 }
-/* line 113, ../sass/megamenus.scss */
+/* line 124, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.panel-3col-33-stacked div.panel-panel.panel-col-last {
   margin-right: 0 !important;
 }
-/* line 120, ../sass/megamenus.scss */
+/* line 131, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels {
   background-color: white;
   padding: 10px !important;
 }
-/* line 123, ../sass/megamenus.scss */
+/* line 134, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels li.menu-mlid-3973 {
   margin-bottom: 5px;
 }
-/* line 125, ../sass/megamenus.scss */
+/* line 136, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels li.menu-mlid-3973 > a {
   padding-bottom: 1px !important;
 }
-/* line 129, ../sass/megamenus.scss */
+/* line 140, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels h2.pane-title {
   padding-left: 5px;
 }
-/* line 132, ../sass/megamenus.scss */
+/* line 143, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels h2.pane-title,
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels li.menu-mlid-3973 > a {
   color: #001421;
@@ -149,34 +155,34 @@ div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels li
   font-weight: bold !important;
   margin-bottom: 5px;
 }
-/* line 144, ../sass/megamenus.scss */
+/* line 155, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels a {
   color: #0069aa;
 }
-/* line 147, ../sass/megamenus.scss */
+/* line 158, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels ul.menu {
   padding-left: 5px !important;
 }
-/* line 149, ../sass/megamenus.scss */
+/* line 160, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels ul.menu ul.menu {
   padding-left: 10px;
   width: 100%;
 }
-/* line 153, ../sass/megamenus.scss */
+/* line 164, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels ul.menu li {
   display: block;
   padding: 0px;
 }
-/* line 156, ../sass/megamenus.scss */
+/* line 167, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels ul.menu li ul.menu li {
   padding-left: 5px;
 }
-/* line 159, ../sass/megamenus.scss */
+/* line 170, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels ul.menu li a {
   padding: 5px;
   display: block;
 }
-/* line 162, ../sass/megamenus.scss */
+/* line 173, ../sass/megamenus.scss */
 div.qtip-wrapper div.qtip-contentWrapper div.qtip-content div.menu-minipanels ul.menu li a:hover {
   background-color: #0069aa;
   color: white;
